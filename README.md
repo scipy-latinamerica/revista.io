@@ -42,8 +42,5 @@ $ open http://localhost:8000
 5. Despliega a Github Pages 
 
 ```
-$ make publish
-$ git add .
-$ git commit -m "nuevo art"
 $ make github
 ```
