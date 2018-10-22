@@ -1,0 +1,1952 @@
+
+<!DOCTYPE HTML>
+<!--
+	Dopetrope 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+			<title>Revista SciPyLA</title>
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+			<meta charset="utf-8" />
+			<link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Revista SciPyLA Full Atom Feed" />
+			<link href="/feeds/calculo.atom.xml" type="application/atom+xml" rel="alternate" title="Revista SciPyLA Categories Atom Feed" />
+			<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic" rel="stylesheet" />
+			<link rel="stylesheet" href="/theme/css/pygment.css" />
+			<link href="img/favicon.png" rel="icon">
+			<noscript>
+				<link rel="stylesheet" href="/theme/css/skel-noscript.css" />
+				<link rel="stylesheet" href="/theme/css/style.css" />
+				<link rel="stylesheet" href="/theme/css/style-desktop.css" />
+			</noscript>
+			<script>
+				window.SITEURL = ""
+			</script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+			<script type="text/javascript">
+			init_mathjax = function() {
+				if (window.MathJax) {
+					// MathJax loaded
+					MathJax.Hub.Config({
+						tex2jax: {
+							inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+							displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+						},
+						displayAlign: 'left', // Change this to 'center' to center equations.
+						"HTML-CSS": { linebreaks: { automatic: true } },
+						 SVG: { linebreaks: { automatic: true } }
+					});
+					MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+				}
+			}
+			init_mathjax();
+			</script>
+	</head>
+	<body class="no-sidebar">
+		<!-- Header Wrapper -->
+			<div id="header-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+
+							<!-- Header -->
+								<section id="header">
+
+									<!-- Logo -->
+									<h1><a href="/">Revista SciPyLA</a></h1>
+
+									<!-- Nav -->
+										<nav id="nav">
+											<ul>
+											</ul>
+										</nav>
+
+								</section>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Main Wrapper -->
+			<div id="main-wrapper">
+				<div class="container">
+<div class="row">
+	<div class="12u">
+			<section>
+				<div>
+					<div class="row">
+						<div class="12u skel-cell-mainContent">
+							<!-- Content -->
+								<article class="box is-post">
+									<div class="post-infos">
+										<ul class="tags">
+											<li><a class="button" href="category/calculo.html">Calculo</a></li>
+											<!-- Add Translation Function -->
+											<!-- End Translation Function -->
+												<li><a class="button button-alt" href="tag/python.html">Python</a></li>
+
+												<li><a class="button button-alt" href="tag/matematica.html">Matematica</a></li>
+
+												<li><a class="button button-alt" href="tag/calculo.html">Calculo</a></li>
+
+												<li><a class="button button-alt" href="tag/derivada.html">Derivada</a></li>
+
+												<li><a class="button button-alt" href="tag/integral.html">Integral</a></li>
+
+												<li><a class="button button-alt" href="tag/limite.html">Limite</a></li>
+
+										</ul>
+									</div>
+
+									<div class="pennant pennant-alt date">sáb 20 octubre 2018</div>
+									<h2>Introducción al Cálculo con Python</h2>
+									<p>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Introducci&#243;n">Introducci&#243;n<a class="anchor-link" href="#Introducci&#243;n">&#182;</a></h2><p>El <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a> es una rama muy importante de la <a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica">Matemática</a> moderna; tiene profundas raíces en problemas físicos y  gran parte de su potencia y belleza derivan de la variedad de sus aplicaciones.
+Las subramas conocidas como <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Cálculo integral</a> y <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial">Cálculo diferencial</a> son instrumentos naturales y poderosos para atacar múltiples problemas que surgen en <a href="https://es.wikipedia.org/wiki/F%C3%ADsica">Física</a>, <a href="https://es.wikipedia.org/wiki/Astronom%C3%ADa">Astronomía</a>, <a href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa">Ingeniería</a>, <a href="https://es.wikipedia.org/wiki/Qu%C3%ADmica">Química</a>, <a href="https://es.wikipedia.org/wiki/Geolog%C3%ADa">Geología</a>, <a href="https://es.wikipedia.org/wiki/Biolog%C3%ADa">Biología</a>, y en otros campos de las ciencias. 
+El <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a> no sólo es un instrumento técnico, sino que contiene una colección de ideas fascinantes y atrayentes que han ocupado el pensamiento humano durante cientos de años. Estas ideas están relacionadas con la velocidad, el área, el volumen, la razón de crecimiento, la tangente a una línea, y demás.</p>
+<h3 id="Historia">Historia<a class="anchor-link" href="#Historia">&#182;</a></h3><p>El origen del <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a> se remonta a más de 2300 años, cuando los griegos intentaban resolver el problema del <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> ideando el procedimiento que llamaron <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_exhaustivo">método de exhaución</a>. La idea esencial de este método consiste en intentar determinar el <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> de una región por medio de aproximaciones utilizando regiones <a href="https://es.wikipedia.org/wiki/Pol%C3%ADgono">poligonales</a> cuya <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> sea más fácil de calcular, la idea es continuar con el proceso aumentando los lados de los <a href="https://es.wikipedia.org/wiki/Pol%C3%ADgono">polígonos</a> hasta llegar a la mejor aproximación posible de la región que queremos determinar. 
+Este método fue usado satisfactoriamente por <a href="https://es.wikipedia.org/wiki/Arqu%C3%ADmedes">Arquímedes</a> (287-212 A.C.) para hallar fórmulas exactas de las áreas del <a href="https://es.wikipedia.org/wiki/C%C3%ADrculo">círculo</a> y de algunas otras figuras especiales. En la siguiente figura podemos ver al <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_exhaustivo">método de exhaución</a> aplicado para determinar el área del <a href="https://es.wikipedia.org/wiki/C%C3%ADrculo">círculo</a>.</p>
+<p><img alt="Método exhaustivo para hallar el área del círculo" title="Método exhaustivo para hallar el área del círculo" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Archimedes_pi.svg
+" width="500px" height="400px"></p>
+<p>Desde <a href="https://es.wikipedia.org/wiki/Arqu%C3%ADmedes">Arquímedes</a>, gradualmente, el <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_exhaustivo">método de exhaución</a> fue transformándose en lo que hoy se conoce como <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Cálculo integral</a>, nueva y potente disciplina que, como ya mencionamos,  tiene numerosas aplicaciones no sólo en problemas relativos a áreas y volúmenes, sino también en problemas de otras ciencias. El <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Cálculo integral</a>, que mantiene alguno de los caracteres originales del <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_exhaustivo">método de exhaución</a>, recibió su mayor impulso en el siglo XVII, debido a los esfuerzos de <a href="https://es.wikipedia.org/wiki/Isaac_Newton">Isaac Newton</a> (1642-1727) y <a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz">Gottfried Leibniz</a> (1646-1716), y su desarrollo continuó durante el siglo XIX, hasta que <a href="https://es.wikipedia.org/wiki/Augustin_Louis_Cauchy">Augustin-Louis Cauchy</a> (1789-1857) y <a href="https://es.wikipedia.org/wiki/Bernhard_Riemann">Bernhard Riemann</a> (1826-1866) le dieron una base <a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica">matemática</a> firme.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Funciones">Funciones<a class="anchor-link" href="#Funciones">&#182;</a></h2><p>Las <a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Funciones</a> son los objetos fundamentales con los que tratamos en el <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a>. Las mismas pueden ser representadas de diferentes maneras: por una <a href="https://es.wikipedia.org/wiki/Ecuaci%C3%B3n">ecuación</a>, en una tabla, por un gráfico, o en palabras. Se utilizan principalmente como modelos matemáticos para representar fenómenos del mundo real.</p>
+<p>La palabra <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> fue introducida en las <a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica">Matemáticas</a> por <a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz">Leibniz</a>, quien utilizaba este término para designar cierto tipo de fórmulas matemáticas. Una <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em>  surge cada vez que una cantidad depende de otra. Más precisamente la definición de <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> es esencialmente la siguiente: Dados dos conjuntos de objetos, el conjunto X y el conjunto Y, una <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> es una regla que asocia a cada objeto de X, uno y sólo un, objeto en Y. El conjunto X se denomina el <em>dominio</em> de la <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em>. Los objetos de Y, asociados con los objetos en X forman otro conjunto denominado el <em>recorrido</em> de la <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em>. Generalmente se utilizan las letras $f, g, h, G$ y $H$ para designarlas. Si $f$ es una función dada y $x$ es un objeto de su dominio, la notación $f(x)$ se
+utiliza para designar el objeto que en el recorrido corresponde a $x$, en la <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> $f$, y se denomina el valor de la función $f$ en $x$. El símbolo $f(x)$ se lee, «f de x».</p>
+<p>Muchas veces resulta útil pensar en una <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> como si fuera una máquina. Si $x$ está en el dominio de la función $f$, entonces cuando $x$ entra en la máquina, se acepta como una entrada y la máquina produce una salida $f(x)$ de acuerdo a la regla de la función. Así, podemos pensar al <em>dominio</em> como el conjunto de todas las entradas posibles y al <em>recorrido</em> como el conjunto de todas las salidas posibles.</p>
+<p>El método más común para la visualización de una <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> es su <a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n">gráfica</a>. Si $f$ es una <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> con
+dominio $D$, a continuación, su <a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n">gráfica</a> es el conjunto de <a href="https://es.wikipedia.org/wiki/Pares_ordenados">pares ordenados</a>.</p>
+<p>$$\{(x, f(x)) \mid x \in D \} $$</p>
+<p>Aquí debemos tener en cuenta que el par $(x, f(x))$, es un par <em>entrada-salida</em>, el valor de $x$ representa el valor de entrada, mientras que el valor de $f(x)$ representa la salida de la <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em>.  En otras palabras, la <a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n">gráfica</a> de $f$ se compone de todos puntos $(x, y)$ en el plano de coordenadas tal que $y=f(x)$ y $x$ está en el <em>dominio</em> de $f$.
+La <a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n">gráfica</a> de una <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> $f$ nos da una imagen útil del comportamiento o la "historia de vida" de la misma.</p>
+<p><img alt="Gráfica de funciones" title="Gráfica de funciones" src="https://relopezbriega.github.io/images/funciones_graf.png
+" width="500px" height="400px"></p>
+<h3 id="Funciones-con-Python">Funciones con Python<a class="anchor-link" href="#Funciones-con-Python">&#182;</a></h3><p>Para definir las <a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Funciones</a> en <a href="https://www.python.org/">Python</a> utilizamos la instrucción <code>def</code>. Así por ejemplo si quisiéramos definir a la <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> $f(x) = \sqrt{x + 2}$ dentro de <a href="https://www.python.org/">Python</a>, lo podríamos hacer de la siguiente forma:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>  
+
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>En este ejemplo, primero estamos importando la librería <a href="https://www.numpy.org/">numpy</a>, para trabajar más fácilmente con <a href="https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica">vectores</a>, los cuales simplifican los cálculos numéricos.
+Luego utilizamos la instrucción <code>def</code> para definir la función, que este caso se va a llamar f y va a tener como único parámetro al objeto x. Esta función nos va a devolver el valor de la raíz cuadrada de $x + 2$. Ahora, si por ejemplo quisiéramos saber los valores de la función $f(x)$ para los $x, -2, -1, 0, 2, 4$ y $6$. podríamos invocar a esta función de la siguiente manera:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">])</span>  <span class="c1"># Creando el vector de valores de x</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">y</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[2]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([ 0.        ,  1.        ,  1.41421356,  2.        ,  2.44948974,
+        2.82842712])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Si quisiéramos verlo en forma de tabla, podemos ayudarnos de la librería <a href="https://pandas.pydata.org/">pandas</a> y su <a href="https://es.wikipedia.org/wiki/Estructura_de_datos">estructura de datos</a> <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html">DataFrame</a>, la cual tiene una forma tabular.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="n">tabla</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)),</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;f(x)&#39;</span><span class="p">]</span> <span class="p">)</span>
+<span class="n">tabla</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[3]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div style="max-height:1000px;max-width:1500px;overflow:auto;">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>x</th>
+      <th>f(x)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>-2</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>-1</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>1.414214</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2</td>
+      <td>2.000000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>2.449490</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>2.828427</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Por último, si quisiéramos graficar funciones con <a href="https://www.python.org/">Python</a>, podemos utilizar la librería <a href="https://matplotlib.org/">Matplotlib</a>, y pasarle los valores de $x$ e $y$ al método <code>plot</code> del objeto <code>pyplot</code>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="k">def</span> <span class="nf">move_spines</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Esta funcion divide pone al eje y en el valor </span>
+<span class="sd">    0 de x para dividir claramente los valores positivos y</span>
+<span class="sd">    negativos.&quot;&quot;&quot;</span>
+    <span class="n">fix</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">spine</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;left&quot;</span><span class="p">,</span> <span class="s2">&quot;bottom&quot;</span><span class="p">]:</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="n">spine</span><span class="p">]</span><span class="o">.</span><span class="n">set_position</span><span class="p">(</span><span class="s2">&quot;zero&quot;</span><span class="p">)</span>
+    
+    <span class="k">for</span> <span class="n">spine</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;right&quot;</span><span class="p">,</span> <span class="s2">&quot;top&quot;</span><span class="p">]:</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="n">spine</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s2">&quot;none&quot;</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">ax</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="n">num</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+
+<span class="n">ax</span> <span class="o">=</span> <span class="n">move_spines</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;Grafico de $f(x)=\sqrt{x + 2}$&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;f(x)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+Mv8fMGCXE6lnZw4AAAAASUVORK5CYII=
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="L&#237;mites">L&#237;mites<a class="anchor-link" href="#L&#237;mites">&#182;</a></h2><p>Uno de los conceptos más importantes dentro del <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a> es el concepto de <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a></em>. Se dice que una función $f$ tiende hacia el <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a></em> $l$ cerca de $a$, si se puede hacer que $f(x)$ este tan próxima como queramos de $l$, haciendo que $x$ esté suficientemente cerca de $a$, pero siendo distinta de $a$. Así por ejemplo si analizamos la función $f(x) = x^2 - x + 2$, para los valores cercanos a 2, podríamos ver los siguientes resultados.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># &lt;!-- collapse=True --&gt;</span>
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">2</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">,</span> <span class="mf">1.9</span><span class="p">,</span> <span class="mf">1.95</span><span class="p">,</span> <span class="mf">1.99</span><span class="p">,</span> <span class="mf">1.999</span><span class="p">,</span> <span class="mf">2.001</span><span class="p">,</span> <span class="mf">2.05</span><span class="p">,</span> <span class="mf">2.1</span><span class="p">,</span> <span class="mf">2.2</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="mi">3</span> <span class="p">])</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">tabla</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)),</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;f(x)&#39;</span><span class="p">])</span>
+<span class="n">tabla</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[5]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div style="max-height:1000px;max-width:1500px;overflow:auto;">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>x</th>
+      <th>f(x)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.000</td>
+      <td>2.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.500</td>
+      <td>2.750000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.900</td>
+      <td>3.710000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.950</td>
+      <td>3.852500</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.990</td>
+      <td>3.970100</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>1.999</td>
+      <td>3.997001</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2.001</td>
+      <td>4.003001</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2.050</td>
+      <td>4.152500</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2.100</td>
+      <td>4.310000</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2.200</td>
+      <td>4.640000</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2.500</td>
+      <td>5.750000</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>3.000</td>
+      <td>8.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>de acuerdo con esta tabla, podemos ver que a medida que hacemos al valor de $x$ cercano a 2, vemos que $f(x)$ se hace muy cercana a 4. Incluso podríamos hacer a $f(x)$ tan cercana como queramos a 4, haciendo que $x$ este lo suficientemente cerca de 2. Por lo tanto, podemos expresar esta propiedad diciendo que el <em>"<a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a> de la función $f(x) = x^2 - x + 2$ cuando $x$ se acerca a 2 es igual a 4."</em> y lo podemos representar con la siguiente notación:</p>
+<p>$$\lim_{x\to 2} \left(x^2 -x + 2\right) = 4$$</p>
+<p>Gráficamente lo podemos ver del siguiente modo.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># &lt;!-- collapse=True --&gt;</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">num</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+
+<span class="n">ax</span> <span class="o">=</span> <span class="n">move_spines</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;limite cuando x tiende a 2&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;Grafico de $f(x)=x^2 -x + 2$&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;f(x)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+I3DyJJw4AQcPwlNPnV5/6BDkdELm+PHT92++GRYvhmPHYPduuOkm+O67kMaMjIxMv1++fPlsy0eP
+Hg1qP9u2bWPcuHFERESk337//Xd27dqVbdvt27fTuHHBrh0wbdo02rRpk/4a69ev56+//kpfX6dO
+nfT7FSpUAODIkSPs3LmTiIgIypcvn76+UaNG6fd37txJw4YN05eNMURFRbFz584cc5QpU4Z+/fqx
+YcMGhg4dWqCfBWy7pWVLu40aNYo//vgjfZuM70mFChU4ceIEqamp7Ny5k/r162faX8afKT/vCcBz
+zz1H8+bNqVatGhERERw8eDBbiSerl19+mRkzZrBgwQLKli0b9M8tWlNWRe7PP+3xb5qUFNuxpunY
+MfP6smWhdWuoUuX0Y598Yjv1NMnJsGxZ+DIXQsOGDRk2bBj79+9Pvx05ciTHEz8NGzYMOHKjYsWK
+HDt2LH15d4Y227ZtG7fffjuvvPIK+/btY//+/bRs2TKoE1t169Zl//79mfa9bdu29Pv169fPtCwi
+bN++PVunl2bHjh3p073ef//9JCUl5ZkhJ1FRUZx11lmZ2u3QoUPMnz8fyH2ESN26ddmxY0emxzL+
+DPl5T1auXMnYsWN59913OXDgAPv376dq1aq5tu3kyZMZM2YMy5Yto169evn90fOk45RdwCs5g3LN
+NeA/UgPs/WuvPb1cvz4sXQpNm9qOOC4u+8m+SpUyL5ctC9WqhS1yTgL9UUZGRvLrr7+mLw8aNIjX
+XnuNNWvWICIcPXqUBQsWcOTIkWzP/cc//sGuXbt44YUXOHnyJIcPH2bNmjUAxMTEsHDhQvbv38/u
+3buZMOH0xSmOHj2KMYaaNWuSmprKlClTWL9+fVA/R6NGjbjgggsYPnw4ycnJfP755+kdH8A///lP
+FixYwKeffkpycjLjxo3jzDPPpEOHDjm2Sf/+/bntttuYNGkSdevWzXVscNa2yujCCy+kcuXKjBkz
+huPHj5OSksL69ev55ptv0l8rkIsvvpgyZcrw4osvkpyczJw5c/j666/T1+fnPTl8+DBlypShZs2a
+JCUlMWLECA4dOhTwtd966y2GDRvGkiVLiI6ODrhdIDpOWRW9xx6DgQNtZ1ypEjzwAPzrX5m3ad8e
+Nm60pY0lS6BWrczrX34ZypeH0qXtfqKibAmjgLKOYQ1mPGvaNlmfGx8fT79+/YiIiOC9996jbdu2
+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
+yi7glZxe4ZX2LGk5T52Cp58OfS05jRfaU2vKSinXmDnTzpXcpYvTSdxNa8oqaFpTVgV16pSd4+KN
+N0p8p6w1ZaWU82bMgPr1S3yHHBStKbtAUeYcOHAgkZGRnH/++emP7du3j27dutG0aVO6d+/OgQMH
+iixPOOj7HlqFzXnqFDzzjK0lh5MX2lNryiqbAQMGsGjRokyPjR49mm7durFp0ya6du3K6NGjHUqn
+iqPp06FhwxIzNWehaU25BPL5fPTs2ZN169YBcN5557FixQoiIyPZvXs3cXFx/Pzzz9mepzVllV/J
+yXDuuTB1qk7P6ac1ZZW3PXv2EBkZCUBkZCR79uxxOJEqLqZNg7PO0g45P7Sm7AJuymmMwYRjEGkR
+clN75qa450xKsrXk+PiQxgnIC+0ZTE25TEF3npiYCEBcnH2NtAZx03JiYqKr8rhp+ejRoyQkJBAX
+F0dkZCRz5syhevXqnHvuudSuXTvg8+P9f2E+n4+YmBiGDBniip/Hi8vF/fdzzhxo1iyOTp1Kbnum
+3ff5fGmLMcDplTnQmnIJlLWm/NBDD1GjRg0efvhhRo8ezYEDB3I82ac1ZRWsQ4egaVNYvBhat3Y6
+javk+TFUO+USpk+fPqxYsYK9e/cSGRnJiBEjuPrqq+nVqxe//fYb0dHRzJ49m2rVqmV7rnbKKlhP
+Pgk+n60pq0zyrg2KSIFuy5cvF7fzQkYR7+S0vy7u55X2LK45d+0SqV5dxOcLT55AvNCeQJzk0bfq
+6AulVEg99RT07w+NGjmdxJu0fKGCpuULlZdNm6BDB9i4EWrUcDqNK+k4ZaVU0Rk2DB54QDvkwtBx
+yi7glZxe4ZX2LG45V6+Gr76Ce+4Jb55AvNCeOveFUqpIiMBDD9kvilSo4HQab9Oasgqa1pRVIAsX
+2rLFDz9AmQJ/Ja1E0JqyUiq8UlLg4Ydh1CjtkENBa8ou4JWcXuGV9iwuOWfMgCpV4KqriiZPIF5o
+z7DOfaGUUidOwBNP2KtUe3weK9fQmrIKmtaUVVbPPQeffw4ffuh0Es/QuS9U6GinrDLav99OOrRi
+BTRv7nQazwjfiT4v1G+8kBG8k9MrvNKeXs85ahRcc417OmQvtKfWlJVSYfHLLzB5sh0Cp0JLyxcq
+aFq+UGl69oROnewXRlS+5Fm+0CNlpVS+fPwx/PwzvPee00mKJ60pu4BXcnqFV9rTizmTkmDIEJgw
+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
+KeUi/w9xB0XdBcbfYwAAAABJRU5ErkJggg==
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Las-leyes-de-los-l&#237;mites">Las leyes de los l&#237;mites<a class="anchor-link" href="#Las-leyes-de-los-l&#237;mites">&#182;</a></h3><p>Calcular el valor exacto de los <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límites</a></em> muchas veces no suele tan fácil como reemplazar el valor de $a$ en $f(x)$. Es por esto que es importante conocer algunas propiedades de los <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límites</a></em>, ellas son:</p>
+<ol>
+<li><strong>Ley de la suma:</strong> El límite de la suma de dos funciones es la suma de sus límites.</li>
+<li><strong>Ley de la diferencia:</strong> El límite de la diferencia de dos funciones es la diferencia de sus límites.</li>
+<li><strong>Ley del producto:</strong> El límite del producto de dos funciones es el producto de sus límites.</li>
+<li><strong>ley del múltiplo constante:</strong> El límite de una constante por una función es la constante por el límite de la función.</li>
+<li><strong>Ley del cociente:</strong> El límite del cociente de dos funciones es el cociente de sus límites, siempre que el límite del denominador sea diferente de <em>cero</em>.</li>
+</ol>
+<p>Es decir que si tenemos a la constante $C$ y a los límites $\lim_{x\to a} f(x)$ y $\lim_{x\to a} g(x)$. Entonces podemos expresar estas propiedades matemáticamente de la siguiente forma:</p>
+<p>1- <strong>Ley de la suma:</strong> $\lim_{x\to a} [f(x) + g(x)] = \lim_{x\to a} f(x) + \lim_{x\to a} g(x)$.</p>
+<p>2- <strong>Ley de la diferencia:</strong> $\lim_{x\to a} [f(x) - g(x)] = \lim_{x\to a} f(x) - \lim_{x\to a} g(x)$.</p>
+<p>3- <strong>Ley del producto:</strong> $\lim_{x\to a} [f(x) \cdot g(x)] = \lim_{x\to a} f(x) \cdot \lim_{x\to a} g(x)$.</p>
+<p>4- <strong>ley del multiplo constante:</strong> $\lim_{x\to a} [C \cdot f(x)] = C \cdot \lim_{x\to a} f(x)$.</p>
+<p>5- <strong>Ley del cociente:</strong> $\lim_{x\to a} \left[\frac{f(x)}{g(x)}\right] = \frac{\lim_{x\to a} f(x)}{\lim_{x\to a} g(x)}$, si $\lim_{x\to a} g(x) \ne 0$.</p>
+<h3 id="Calculando-L&#237;mites-con-Python">Calculando L&#237;mites con Python<a class="anchor-link" href="#Calculando-L&#237;mites-con-Python">&#182;</a></h3><p>Con <a href="https://www.python.org/">Python</a>, podemos resolver <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límites</a></em> fácilmente utilizando la librería <a href="https://www.sympy.org/es/">SymPy</a>, la cual nos proporciona el objeto <code>Limit</code> para representarlos en <a href="https://www.python.org/">Python</a>. Su sintaxis es la siguiente: <code>Limit(función, variable, punto)</code>. Entonces para calcular el límite de $f(x)$ cuando $x$ tiende a 0, debemos escribir:</p>
+<p><code>Limit(f(x), x, 0)</code></p>
+<p>Lo utilizamos de la siguiente forma:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="kn">from</span> <span class="nn">sympy.interactive</span> <span class="k">import</span> <span class="n">printing</span>
+<span class="kn">from</span> <span class="nn">sympy</span> <span class="k">import</span> <span class="n">Limit</span><span class="p">,</span> <span class="n">limit</span><span class="p">,</span> <span class="n">Symbol</span><span class="p">,</span> <span class="n">S</span>
+
+<span class="c1"># imprimir con notación matemática.</span>
+<span class="n">printing</span><span class="o">.</span><span class="n">init_printing</span><span class="p">(</span><span class="n">use_latex</span><span class="o">=</span><span class="s1">&#39;mathjax&#39;</span><span class="p">)</span> 
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">Symbol</span><span class="p">(</span><span class="s1">&#39;x&#39;</span><span class="p">)</span> <span class="c1"># Creando el simbolo x.</span>
+<span class="n">Limit</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">2</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="c1"># Creando el objeto Limit</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[7]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$\lim_{x \to 2^+}\left(x^{2} - x + 2\right)$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># Resolviendo el Limite con el metodo doit()</span>
+<span class="n">Limit</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">2</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">doit</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[8]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$4$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># La funcion limit nos da directamente el resultado</span>
+<span class="n">limit</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">2</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[9]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$4$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># Resolviendo limite 1/x cuando x tiende a infinito</span>
+<span class="n">Limit</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">x</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">S</span><span class="o">.</span><span class="n">Infinity</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[10]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$\lim_{x \to \infty} \frac{1}{x}$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="n">Limit</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">x</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">S</span><span class="o">.</span><span class="n">Infinity</span><span class="p">)</span><span class="o">.</span><span class="n">doit</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[11]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$0$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Como vemos, primero creamos el símbolo para representar a la variable x utilizando el objeto <code>Symbol</code>, y luego creamos nuestro límite utilizando el objeto <code>Limit</code>. Por último para resolver el límite, simplemente llamamos al método <code>doit()</code> sobre el objeto <code>Limit</code> que acabamos de crear. También podemos calcular los <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límites</a></em> de valores de $x$ que tiendan hacia el <a href="https://es.wikipedia.org/wiki/Infinito">infinito</a> utilizando la <em>clase</em> especial <code>S.Infinity</code> que nos proporciona <a href="https://www.sympy.org/es/">SymPy</a>.</p>
+<p>Ahora que ya conocemos que es una <em><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica">Función</a></em> y que es un <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a></em>, ya estamos en condiciones de adentrarnos en el <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial">Cálculo diferencial</a> y analizar el concepto de <a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a>.</p>
+<h2 id="Derivadas">Derivadas<a class="anchor-link" href="#Derivadas">&#182;</a></h2><p>Para poder comprender el concepto de <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> primero debemos abordar el problema de la <em><a href="https://es.wikipedia.org/wiki/Recta_tangente">recta tangente</a></em> a un curva. La palabra <a href="https://es.wikipedia.org/wiki/Tangente_(geometr%C3%ADa)">tangente</a> se deriva de la palabra griega <em>Tangens</em>, que significa "que toca". Así una <em><a href="https://es.wikipedia.org/wiki/Recta_tangente">tangente</a></em> a una curva es una línea que toca la curva. En otras palabras, una línea tangente debe tener la misma dirección que la curva en el punto de contacto. Para un círculo podríamos simplemente seguir la definición de <a href="https://es.wikipedia.org/wiki/Euclides">Euclides</a> y decir que la <a href="https://es.wikipedia.org/wiki/Tangente_(geometr%C3%ADa)">tangente</a> es una línea que cruza
+el círculo una y sólo una vez (ver <em>figura a</em>). Pero para curvas más complicadas este definición es inadecuada. Por ejemplo en la <em>figura b</em> podemos ver  dos líneas $l$ y $t$ que pasan por el punto $P$ en una curva $C$ . La línea $l$ cruza a la curva $C$ sólo una vez, pero ciertamente no se parece a lo que pensamos como una <a href="https://es.wikipedia.org/wiki/Tangente_(geometr%C3%ADa)">tangente</a>. La línea $t$, en cambio, se parece a una <a href="https://es.wikipedia.org/wiki/Tangente_(geometr%C3%ADa)">tangente</a> pero intercepta a $C$ dos veces.</p>
+<p><img alt="El problema de la tangente" title="El problema de la tangente" src="https://relopezbriega.github.io/images/tangente.png
+" width="500px" height="400px"></p>
+<p>El intento de resolver este problema fue lo que condujo a <a href="https://es.wikipedia.org/wiki/Pierre_de_Fermat">Fermat</a> a descubrir algunas de las ideas rudimentarias referentes a la noción de <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em>.
+Aunque la derivada se introdujo inicialmente para el estudio del problema de la tangente, pronto se vio que proporcionaba también un instrumento para el cálculo de <em>velocidades</em> y, en general para el estudio de la <em>variación o tasa de cambio</em> de una función.</p>
+<p>La <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> de una función es una medida de la rapidez con la que cambia el valor de dicha función, según cambie el valor de su <a href="https://es.wikipedia.org/wiki/Variable_independiente">variable independiente</a>. La <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> de una función es un concepto local, es decir, se calcula como el <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">límite</a></em> de la rapidez de cambio medio de la función en un cierto intervalo, cuando el intervalo considerado para la variable independiente se torna cada vez más pequeño. Por ello se habla del valor de la derivada de una cierta función en un punto dado.
+Entonces el valor de la <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> de una función en un punto puede interpretarse geométricamente, ya que se corresponde con la <strong>pendiente de la <em><a href="https://es.wikipedia.org/wiki/Recta_tangente">recta tangente</a></em></strong> a la gráfica de la función en dicho punto. La <em><a href="https://es.wikipedia.org/wiki/Recta_tangente">recta tangente</a></em> es a su vez la gráfica de la mejor aproximación lineal de la función alrededor de dicho punto. La noción de <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> puede generalizarse para el caso de funciones de más de una variable con la <a href="https://es.wikipedia.org/wiki/Derivada_parcial">derivada parcial</a> y el <a href="https://es.wikipedia.org/wiki/Diferencial_de_una_funci%C3%B3n">diferencial</a>.</p>
+<p>Matemáticamente, la <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> es una caso especial de <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a></em>, el cual surge cada vez que queremos calcular la pendiente de la <em><a href="https://es.wikipedia.org/wiki/Recta_tangente">recta tangente</a></em> o la <em>velocidad de cambio</em> de un objeto. Éste <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a></em> ocurre tan frecuentemente que se le ha da un notación y un nombre determinados. Así <strong>la <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> de una función $f$ en el punto a</strong>, representada por $f'(a)$, es:</p>
+<p>$$f'(a) = \lim_{h \to 0}\frac{f(a + h) - f(a)}{h}$$</p>
+<p>donde $h$ representa la variación de $a$.
+Esta misma definición, puede ser representada también del siguiente modo, utilizando la notación de <a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz">Leibniz</a>.</p>
+<p>$$\frac{dy}{dx} = \lim_{dx \to 0}\frac{f(x + dx) - f(x)}{dx}$$</p>
+<p>Así, por ejemplo si quisiéramos saber cuál es la <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> de la función $f(x) = x^3$, podemos aplicar la definición anterior del siguiente modo.</p>
+<p>Comenzamos, definiendo a $f(x + dx) = (x + dx)^3$, luego expandimos a:</p>
+<p>$$(x + dx)^3 = f(x + dx) = x^3 + 3x^2dx + 3xdx^2 + dx^3$$</p>
+<p>Luego reemplazamos esta función en nuestra definición de <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em>:</p>
+<p>$$\frac{dx}{dy} = \frac{x^3 + 3x^2dx + 3xdx^2 + dx^3 - x^3}{dx}$$</p>
+<p>Simplificamos los términos:</p>
+<p>$$\frac{dx}{dy} = \frac{3x^2dx + 3xdx^2 + dx^3}{dx} \Rightarrow 3x^2 + 3xdx + dx^2$$</p>
+<p>y cuando $dx$ tiende a cero, obtenemos finalmente la función <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em>:</p>
+<p>$$\frac{d}{dx}x^3 = 3x^2$$</p>
+<h3 id="Reglas-de-Derivaci&#243;n">Reglas de Derivaci&#243;n<a class="anchor-link" href="#Reglas-de-Derivaci&#243;n">&#182;</a></h3><p>Si fuera siempre necesario calcular las <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivadas</a></em> directamente de la definición, como hicimos anteriormente, éstos cálculos podrían ser tediosos y complicados. Afortunadamente, varias reglas se han desarrollado para encontrar <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivadas</a></em> sin tener que usar la definición directamente. Estas fórmulas simplifican enormemente la tarea de la diferenciación y se conocen como <a href="https://es.wikipedia.org/wiki/Reglas_de_derivaci%C3%B3n">reglas de derivación</a>. Algunas de ellas son las siguientes:</p>
+<table>
+<thead><tr>
+<th style="text-align:left">Funciones comunes</th>
+<th style="text-align:center">Función original</th>
+<th style="text-align:center">Función Derivada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Constantes</td>
+<td style="text-align:center">$c$</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$x$</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:left">Cuadrado</td>
+<td style="text-align:center">$x^2$</td>
+<td style="text-align:center">$2x$</td>
+</tr>
+<tr>
+<td style="text-align:left">Raiz cuadrada</td>
+<td style="text-align:center">$\sqrt{x}$</td>
+<td style="text-align:center">$\frac{1}{2}x^{-\frac{1}{2}}$</td>
+</tr>
+<tr>
+<td style="text-align:left">Exponenciales</td>
+<td style="text-align:center">$e^x$</td>
+<td style="text-align:center">$e^x$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$a^x$</td>
+<td style="text-align:center">$a^x(\ln a)$</td>
+</tr>
+<tr>
+<td style="text-align:left">Logaritmicas</td>
+<td style="text-align:center">$\ln x$</td>
+<td style="text-align:center">$\frac{1}{x}$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$\log_{a} x$</td>
+<td style="text-align:center">$\frac{1}{x \ln a}$</td>
+</tr>
+<tr>
+<td style="text-align:left">Trigonométricas</td>
+<td style="text-align:center">$\sin x$</td>
+<td style="text-align:center">$\cos x$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$\cos x$</td>
+<td style="text-align:center">$-\sin x$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$\tan x$</td>
+<td style="text-align:center">$\sec^2(x)$</td>
+</tr>
+<tr>
+<td style="text-align:left">Trigonométricas inversas</td>
+<td style="text-align:center">$\sin^{-1}(x)$</td>
+<td style="text-align:center">$\frac{1}{\sqrt{1-x^2}}$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$\cos^{-1}(x)$</td>
+<td style="text-align:center">$\frac{-1}{\sqrt{1-x^2}}$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$\tan^{-1}(x)$</td>
+<td style="text-align:center">$\frac{1}{1-x^2}$</td>
+</tr>
+</tbody>
+</table>
+<p>1- <strong>Regla de la función de grado n:</strong> Esta regla nos dice que una función de grado n, donde n es un exponente real, se representa por $f(x)=x^{n}$ y su derivada es $f'(x)=nx^{n-1}$. Así por ejemplo, si quisiéramos saber la derivada de $f(x) = x^5$, aplicando la regla obtenemos, $f'(x) = 5x^{5-1} \Rightarrow 5x^4$.</p>
+<p>2- <strong>Regla de la multiplicación por una constante:</strong> Esta regla establece que una función con la forma $f(x) = Cx$, donde $C$ es una constante; entonces la derivada de esta función va a ser igual a: $f'(x)= Cx'$; es decir a la constante por la derivada de $x$. Así por ejemplo si tenemos la función $f(x)=5x^3$, primero debemos a obtener la derivada de $x^3$, la cual aplicando la regla anterior sabemos que es $3x^2$ y luego a esta derivada la multiplicamos por la constante 5, para obtener el resultado final $f'(x)=15x^2$.</p>
+<p>3- <strong>Regla de la suma:</strong> Esta regla establece que la derivada de la suma de dos funciones es igual a la suma de las derivadas de cada una de ellas. Es decir, $(f+g)'(x)=f'(x)+g'(x)$. Así por ejemplo la derivada de la función $f(x) = 5x^3 + x^2$ va a ser igual a $f'(x) = 15x^2 + 2x$.</p>
+<p>4- <strong>Regla de la diferencia:</strong> Esta regla establece que la derivada de la diferencia entre dos funciones es igual a la diferencia entre las derivadas de cada una de ellas. Es decir, $(f-g)'(x)=f'(x)-g'(x)$. Así por ejemplo la derivada de la función $f(x) = 5x^3 - x^2$ va a ser igual a $f'(x) = 15x^2 - 2x$.</p>
+<p>5- <strong>Regla del producto:</strong> Esta regla establece que la derivada de un producto de dos funciones es equivalente a la suma entre el producto de la primera función sin derivar y la derivada de la segunda función y el producto de la derivada de la primera función por la segunda función sin derivar. Es decir,  $(f\cdot g)' = f'\cdot g + f\cdot g'$. Así por ejemplo si quisiéramos derivar la función $h(x)=(2x + 1)(x^3 + 2)$, primero obtenemos las derivadas de cada termino, $f'(x)=2$ y $g'(x)=3x^2$ y luego aplicamos la formula $h'(x)=2(x^3 +2) + (2x + 1)3x^2$, los que nos da un resultado final de $h'(x)=8x^3 + 3x^2 + 4$.</p>
+<p>6- <strong>Regla del cociente:</strong> Esta regla establece que la derivada de un cociente de dos funciones es la función ubicada en el denominador por la derivada del numerador menos la derivada de la función en el denominador por la función del numerador sin derivar, todo sobre la función del denominador al cuadrado. Es decir, $\left(\frac{f}{g}\right)'=\frac{f'g-fg'}{g^{2}}$. Por ejemplo, para obtener la derivada de la función $h(x) = \frac{3x + 1}{2x}$, aplicando la formula obtenemos que $h'(x) = \frac{3 \cdot (2x) - (3x + 1) \cdot 2}{2x^2}$, y simplificando llegamos al resultado final de $h'(x) = -\frac{1}{2x^2}$.</p>
+<p>7- <strong>Regla de la cadena:</strong> La regla de la cadena es una fórmula para calcular la derivada de la composición de dos o más funciones. Esto es, si $f$ y $g$ son dos funciones, entonces la regla de la cadena expresa la derivada de la función compuesta $f(g(x))$ en términos de las derivadas de $f$ y $g$. Esta derivada va a ser calculada de acuerdo a la siguiente formula: $f'(g(x)) = f'(g(x)) \cdot g'(x)$. Por ejemplo, si quisiéramos saber la derivada de la función $h(x) = \sin(x^2)$, aplicando la formula obtenemos que $h'(x) = \cos(g(x)) \cdot 2x$, lo que es igual a $h'(x) = 2x \cos(x^2)$.</p>
+<h3 id="Derivadas-de-mayor-orden">Derivadas de mayor orden<a class="anchor-link" href="#Derivadas-de-mayor-orden">&#182;</a></h3><p>Si tenemos una función $f$, de la cual podemos obtener su derivada $f'$, la cual también es otra función que podemos derivar, entonces podemos obtener la <em>derivada de segundo orden</em> de $f$, la cual representaremos como $f''$. Es decir, que la derivada de segundo orden de $f$, va a ser igual a la derivada de su derivada. Siguiendo el mismo proceso, podemos seguir subiendo en la jerarquía y obtener por ejemplo, la tercer derivada de $f$. Utilizando la notación de <a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz">Leibniz</a>, expresaríamos a la segunda derivada del siguiente modo:</p>
+<p>$$\frac{d}{dy}\left(\frac{dy}{dx}\right)= \frac{d^2y}{dx^2}$$</p>
+<h3 id="Calculando-Derivadas-con-Python">Calculando Derivadas con Python<a class="anchor-link" href="#Calculando-Derivadas-con-Python">&#182;</a></h3><p>Con <a href="https://www.python.org/">Python</a>, podemos resolver <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivadas</a></em> utilizando nuevamente la librería <a href="https://www.sympy.org/es/">SymPy</a>. En este caso, ahora vamos a utilizar el objeto <code>Derivative</code>. Su sintaxis es la siguiente: <code>Derivative(funcion, variable, orden de derivación)</code>. Lo utilizamos de la siguiente forma:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="kn">from</span> <span class="nn">sympy</span> <span class="k">import</span> <span class="n">Derivative</span><span class="p">,</span> <span class="n">diff</span><span class="p">,</span> <span class="n">simplify</span>
+
+<span class="n">fx</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">dx</span> <span class="o">=</span> <span class="n">Derivative</span><span class="p">(</span><span class="n">fx</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">doit</span><span class="p">()</span>
+<span class="n">dx</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[12]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$2 x^{3} + 3 x^{2} \left(2 x + 1\right) + 4$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># simplificando los resultados</span>
+<span class="n">simplify</span><span class="p">(</span><span class="n">dx</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[13]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$8 x^{3} + 3 x^{2} + 4$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># Derivada de segundo orden con el 3er argumento.</span>
+<span class="n">Derivative</span><span class="p">(</span><span class="n">fx</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">doit</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[14]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$6 x \left(4 x + 1\right)$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># Calculando derivada de (3x +1) / (2x)</span>
+<span class="n">fx</span> <span class="o">=</span> <span class="p">(</span><span class="mi">3</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
+<span class="n">dx</span> <span class="o">=</span> <span class="n">Derivative</span><span class="p">(</span><span class="n">fx</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">doit</span><span class="p">()</span>
+<span class="n">simplify</span><span class="p">(</span><span class="n">dx</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[15]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$- \frac{1}{2 x^{2}}$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># la función diff nos da directamente el resultado</span>
+<span class="n">simplify</span><span class="p">(</span><span class="n">diff</span><span class="p">(</span><span class="n">fx</span><span class="p">,</span> <span class="n">x</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[16]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$- \frac{1}{2 x^{2}}$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># con el metodo subs sustituimos el valor de x </span>
+<span class="c1"># para obtener el resultado numérico. Ej x = 1.</span>
+<span class="n">diff</span><span class="p">(</span><span class="n">fx</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">subs</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[17]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$- \frac{1}{2}$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Como podemos ver, el método para calcular las <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivadas</a></em> con <a href="https://www.python.org/">Python</a>, es muy similar al que vimos anteriormente al calcular los <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límites</a></em>. En el ejemplo, también utilizamos la función <code>simplify</code>, la cual nos ayuda a simplificar los resultados; y el método <code>subs</code> para sustituir el valor de $x$ y obtener el resultado numérico.</p>
+<p>Ahora que ya conocemos al <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial">Cálculo diferencial</a>, es tiempo de pasar hacia la otra rama del <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a>, el <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Cálculo integral</a>, y analizar el concepto de <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integración</a>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Integrales">Integrales<a class="anchor-link" href="#Integrales">&#182;</a></h2><p>La idea de <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral</a></em> es el concepto básico del <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Cálculo integral</a>. Pero para poder comprender este concepto, primero debemos abordar el <em>problema del <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a></em>. Como bien sabemos, el <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> es una medida de la extensión de una superficie. Determinar esta medida para superficies con <a href="https://es.wikipedia.org/wiki/Recta">líneas rectas</a>, suele ser bastante fácil. Por ejemplo para un rectángulo, su <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> se define como el producto de la longitud y el ancho. O para un triángulo como la mitad de la base por la altura. El <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> de cualquier otro polígono se encuentra al dividirlo en triángulos y luego sumar las áreas de cada uno ellos. Pero para los casos de las regiones con <a href="https://es.wikipedia.org/wiki/Curva">líneas curvas</a>, el cálculo del <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> ya no suele ser tan fácil. Para estos casos debemos recurrir a un método similar al de <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_exhaustivo">exhaución</a> que mencionábamos en la introducción del artículo. Es decir,  que vamos a ir dividiendo la región en varios rectángulos de $\Delta x$ de ancho y luego podemos ir calculando el <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> como la suma del las <a href="https://es.wikipedia.org/wiki/%C3%81rea">áreas</a> de cada uno de estos rectángulos. A medida que vamos agregando más rectángulos, haciendo $\Delta x$ cada vez más pequeño, nos vamos aproximando cada vez más al valor real del <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> de la superficie curva. Hasta el punto de que, cuando $\Delta x$ tiende a cero, podemos alcanzar el resultado exacto del <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> de nuestra superficie curva. Es decir, que realizando una suma de infinitamente más angostos rectángulos, podemos determinar el resultado exacto del <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> de nuestra superficie curva. Este proceso lo podemos ver más claramente en la siguiente figura.</p>
+<p><img alt="Proceso de integración" title="Proceso de integración" src="https://relopezbriega.github.io/images/proceso_integración.png" width="500px" height="400px"></p>
+<p>Como vemos, al igual que pasaba con el caso de las <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivadas</a></em>, al querer calcular el <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a> de una superficie curva, nos encontramos ante un caso especial de <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a></em> (aquí vemos también por qué el concepto de <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a></em> es tan importante para el <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a>!). Este tipo de <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a></em> surge en una amplia variedad de situaciones, no solo al calcular <a href="https://es.wikipedia.org/wiki/%C3%81rea">áreas</a>, sino que también lo podemos encontrar al calcular la distancia recorrida por un objeto o el volumen de un sólido. Por lo tanto, se le ha dado una notación y un nombre determinado. De esta forma la definición matemática de la <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral</a></em> definida, sería la siguiente:</p>
+<p>Si $f$ es una función definida por $a \leqslant x \leqslant b$, podemos dividir el intervalo $[a, b]$ en $n$ subintervalos de $\Delta x(b - a) / n$ de ancho. Dónde $x_0(=a), x_1, x_2, \dots, x_n(=b)$ serán los puntos finales de estos subintervalos y $x_1^*, x_2^*, \dots, x_n^*$, serán puntos intermedios en estos subintervalos, de tal forma que $x_i^*$ se encuentre en el k-simo subintervalo $[x_{i-1}, x_i]$. Entonces la <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral</a></em> definida de $f$ entre $a$ y $b$, es:</p>
+<p>$$\int_a^b f(x) dx = \lim_{n \to \infty}\sum_{i=1}^n f(x_i^*) \Delta x $$</p>
+<p>El símbolo de la <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral</a></em>, $\int$, fue introducido por <a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz">Leibniz</a>, viene a ser una "S" alargada y fue elegido ya que la <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral</a></em> es en definitiva un <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límite</a></em> de sumas <a href="https://es.wikipedia.org/wiki/Infinitesimal">infinitesimales</a>. En esta notación, $a$ y $b$ son los límites de la integración y $dx$ indica que $x$ es la variable independiente. La suma:</p>
+<p>$$\sum_{i=1}^n f(x_i^*) \Delta x $$</p>
+<p>que vemos en la definición, es conocida como la <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_de_Riemann#Suma_de_Riemann">suma de Reimann</a></em>, en honor al matemático alemán <a href="https://es.wikipedia.org/wiki/Bernhard_Riemann">Bernhard Reimann</a> que la desarrolló.</p>
+<p><img alt="Integral definida" title="Integral definida" src="https://relopezbriega.github.io/images/integracion.png" width="500px" height="400px"></p>
+<h3 id="Integrales-definidas-e-indefinidas">Integrales definidas e indefinidas<a class="anchor-link" href="#Integrales-definidas-e-indefinidas">&#182;</a></h3><p>Una distinción importante que debemos hacer al hablar de <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integrales</a></em>, es la diferencia entre una <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral definida</a> y una <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">integral indefinida</a> o <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">antiderivada</a>. Mientras que la <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral definida</a>, que representamos con el símbolo, $\int_a^b f(x) dx$,  es un <em>número</em>, un resultado preciso de la medida de un <a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a>, distancia o volumen; la <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">integral indefinida</a>, que representamos como, $\int f(x) dx$,  es una <em>función</em> o familia de funciones. Más adelante, cuando hablemos del <a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo">teorema fundamental del cálculo</a>, veremos por qué esta distinción es tan importante. Pero antes, veamos como podemos hacer para calcular <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integrales</a></em>.</p>
+<h3 id="Reglas-de-integraci&#243;n">Reglas de integraci&#243;n<a class="anchor-link" href="#Reglas-de-integraci&#243;n">&#182;</a></h3><p>Cómo podemos ver de la definición que dimos de <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integrales</a></em>, estas parecen sumamente complicadas de calcular. Por suerte, al igual que para el caso de <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivadas</a></em>, existen varias reglas que podemos utilizar para poder calcular las <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">integrales indefinidas</a>, en forma más sencilla. Algunas de ellas son:</p>
+<table>
+<thead><tr>
+<th style="text-align:left">Funciones comunes</th>
+<th style="text-align:center">Función original</th>
+<th style="text-align:center">Integral indefinida ($C$ es una constante)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Constante</td>
+<td style="text-align:center">$\int a \ dx$</td>
+<td style="text-align:center">$ax + C$</td>
+</tr>
+<tr>
+<td style="text-align:left">Variable</td>
+<td style="text-align:center">$\int x \ dx$</td>
+<td style="text-align:center">$\frac{x^2}{2} + C$</td>
+</tr>
+<tr>
+<td style="text-align:left">Cuadrado</td>
+<td style="text-align:center">$\int x^2 \ dx$</td>
+<td style="text-align:center">$\frac{x^3}{3} + C$</td>
+</tr>
+<tr>
+<td style="text-align:left">Reciproca</td>
+<td style="text-align:center">$\int \left(\frac{1}{x}\right) \ dx$</td>
+<td style="text-align:center">$\ln |x| + C                $</td>
+</tr>
+<tr>
+<td style="text-align:left">Exponenciales</td>
+<td style="text-align:center">$\int e^x \ dx      $</td>
+<td style="text-align:center">$e^x + C$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$\int a^x \ dx$</td>
+<td style="text-align:center">$\frac{a^x}{\ln (a)} + C$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$\int \ln (x) \ dx$</td>
+<td style="text-align:center">$x \ \ln(x) - x + C$</td>
+</tr>
+<tr>
+<td style="text-align:left">Trigonométricas</td>
+<td style="text-align:center">$\int \sin (x) \ dx$</td>
+<td style="text-align:center">$- \cos (x) + C$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$\int \cos (x) \ dx$</td>
+<td style="text-align:center">$\sin (x) + C$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:center">$\int \sec^2(x) \ dx$</td>
+<td style="text-align:center">$\tan(x) + C$</td>
+</tr>
+</tbody>
+</table><p>1- <strong>Regla de la función de grado n:</strong> Esta regla nos dice que una función de grado n, donde n es un exponente real distinto de -1, se representa por $f(x)=x^{n}$ y su integral es $\int x^{n} \ dx = \frac{x^{n + 1}}{n + 1} + C$. Así por ejemplo, si quisiéramos saber la integral de $f(x) = x^3$, aplicando la regla obtenemos, $\int x^3 \ dx = \frac{x^4}{4} + C$.</p>
+<p>2- <strong>Regla de la multiplicación por una constante:</strong> Esta regla establece que una función con la forma $f(x) = Cx$, donde $C$ es una constante; entonces la integral de esta función va a ser igual a: $\int Cx \ dx = C\int x \ dx$; es decir a la constante por la integral de $x$. Así por ejemplo si tenemos la función $f(x)=4x^3$, primero debemos a obtener la integral de $x^3$, la cual aplicando la regla anterior sabemos que es $\int x^3 \ dx = \frac{x^4}{4} + C $ y luego a esta integral la multiplicamos por la constante 4, para obtener el resultado final $\int 4 x^3 \ dx = x^4 + C$.</p>
+<p>3- <strong>Regla de la suma:</strong> Esta regla establece que la integral de la suma de dos funciones es igual a la suma de las integrales de cada una de ellas. Es decir, $\int (f + g) \ dx = \int f \ dx + \int g \ dx$. Así por ejemplo la integral de la función $f(x) = 4x^3 + x^2$ va a ser igual a $\int (4x^3 + x^2) \ dx = x^4 + \frac{x^3}{3} + C$.</p>
+<p>4- <strong>Regla de la diferencia:</strong> Esta regla establece que la integral de la diferencia entre dos funciones es igual a la diferencia entre las integrales de cada una de ellas. Es decir, $\int (f - g) \ dx = \int f \ dx - \int g \ dx$. Así por ejemplo la integral de la función $f(x) = 4x^3 - x^2$ va a ser igual a $\int (4x^3 - x^2) \ dx = x^4 - \frac{x^3}{3} + C$.</p>
+<p>En todos estos ejemplos, podemos ver la aparición de una misteriosa constante $C$, esta es la que se conoce como <a href="https://es.wikipedia.org/wiki/Constante_de_integraci%C3%B3n">constante de integración</a>. Esta constante expresa una ambigüedad inherente a la construcción de las integrales. Es por esta ambigüedad que cuando hablamos de la <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">integral indefinida</a> decimos que expresa una familia de funciones $f(x) + C$.</p>
+<h3 id="Teorema-fundamental-del-C&#225;lculo">Teorema fundamental del C&#225;lculo<a class="anchor-link" href="#Teorema-fundamental-del-C&#225;lculo">&#182;</a></h3><p>El <a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo">teorema fundamental del cálculo</a> establece una conexión entre las dos ramas del <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a>: el <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial">Cálculo diferencial</a> y el <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Cálculo integral</a>. Como ya hemos visto, el <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial">Cálculo diferencial</a> surgió del problema de la <em><a href="https://es.wikipedia.org/wiki/Recta_tangente">tangente</a></em> , mientras que el <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Cálculo integral</a> surgió de un problema aparentemente sin relación con este, el problema del  <em><a href="https://es.wikipedia.org/wiki/%C3%81rea">área</a></em>. Fue <a href="https://es.wikipedia.org/wiki/Isaac_Barrow">Isaac Barrow</a>, quien descubrió que estos dos problemas están en realidad estrechamente relacionados.
+De hecho, se dio cuenta de que la <a href="https://es.wikipedia.org/wiki/Derivada">derivación</a> y la <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">integración</a> son procesos inversos. El <a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo">teorema fundamental del cálculo</a> nos da la relación inversa precisa entre la   <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> y la <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral</a></em>. Fueron <a href="https://es.wikipedia.org/wiki/Isaac_Newton">Newton</a> y <a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz">Leibniz</a> quienes aprovecharon esta relación y la utilizaron para
+desarrollar el <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a>. En particular, vieron que esta relación les permitía calcular <em><a href="https://es.wikipedia.org/wiki/%C3%81rea">áreas</a></em> e  <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integrales</a></em> con mucha facilidad y sin tener que calcularlas como límites de sumas. Es decir, que si tomamos una función $f$, y obtenemos primero su <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em>, y luego calculamos la <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral</a></em> sobre esta función <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivada</a></em> $f'(x)$. Obtenemos nuevamente función original $f$. Lo que una hace, la otra lo deshace. El <a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo">teorema fundamental del cálculo</a> es sin duda el teorema más importante en el <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a> y, de hecho, se ubica como uno de los grandes logros de la mente humana. Matemáticamente, este teorema se suele dividir en dos partes y nos dice lo siguiente:</p>
+<p><strong>Teorema fundamental del Calculo, parte 1.</strong> si $f$ es una función continua en el intervalo $[a, b]$, entonces la función $g$ definida como:</p>
+<p>$$g(x) = \int_a^x f(t) dt \qquad a \leqslant x \leqslant b $$</p>
+<p>es continua en el intervalo $[a, b]$ y <a href="https://es.wikipedia.org/wiki/Derivada">diferenciable</a> en $(a, b)$, y $g'(x) = f(x)$.</p>
+<p><strong>Teorema fundamental del Calculo, parte 2.</strong> si $f$ es una función continua en el intervalo $[a, b]$, entonces:</p>
+<p>$$\int_a^b f(x) dx = F(b) - F(a) $$</p>
+<p>en donde $F$ es la <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">antiderivada</a> de $f$, o sea, una función tal que F' = f.</p>
+<p>En definitiva, lo que nos dice la primera parte es que las operaciones de <a href="https://es.wikipedia.org/wiki/Derivada">derivación</a> y de <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">integración</a> son operaciones inversas. La segunda parte nos proporciona un método para calcular <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">integrales definidas</a>, en base a la <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">antiderivada</a> o <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">integral indefinida</a>.</p>
+<p>Así, por ejemplo, si quisiéramos calcular la <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integral</a></em>:</p>
+<p>$$\int_0^3 (x^3 - 6x) dx$$</p>
+<p>primero obtenemos su <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">integral indefinida</a>.</p>
+<p>$$\int (x^3 - 6x) dx = \frac{x^4}{4} - 6\frac{x^2}{2}$$</p>
+<p>y por último aplicamos la segunda parte del <a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo">teorema fundamental del cálculo</a> para obtener la <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">integral definida</a> en $[0, 3]$, reemplazando estos valores en la <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida">integral indefinida</a> que acabamos de obtener.</p>
+<p>$$\int_0^3 (x^3 - 6x) dx = \left(\frac{1}{4} \cdot 3^4 - 3 \cdot 3^2 \right) - \left(\frac{1}{4} \cdot 0^4 - 3 \cdot 0^2 \right) = -\frac{27}{4}$$</p>
+<h3 id="Calculando-Integrales-con-Python">Calculando Integrales con Python<a class="anchor-link" href="#Calculando-Integrales-con-Python">&#182;</a></h3><p>Con <a href="https://www.python.org/">Python</a>, podemos resolver <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integrales</a></em> con la ayuda de la, en este punto ya invaluable, librería <a href="https://www.sympy.org/es/">SymPy</a>. En este caso, vamos a utilizar el objeto <code>Integral</code>. Su sintaxis es la siguiente: <code>Integral(funcion, variable)</code>. Lo utilizamos de la siguiente forma:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="kn">from</span> <span class="nn">sympy</span> <span class="k">import</span> <span class="n">Integral</span><span class="p">,</span> <span class="n">integrate</span>
+
+<span class="n">fx</span> <span class="o">=</span> <span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">6</span><span class="o">*</span><span class="n">x</span>
+<span class="n">dx</span> <span class="o">=</span> <span class="n">Integral</span><span class="p">(</span><span class="n">fx</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">doit</span><span class="p">()</span>
+<span class="n">dx</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[18]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$\frac{x^{4}}{4} - 3 x^{2}$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># la función integrate nos da el mismo resultado</span>
+<span class="n">integrate</span><span class="p">(</span><span class="n">fx</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[19]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$\frac{x^{4}}{4} - 3 x^{2}$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>El objeto <code>Integral</code> también nos permite calcular <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">integrales definidas</a>. En este caso, en el segundo argumento le pasamos una tupla cuyo primer elemento es la variable de integración, su segundo elemento es el límite inferior de integración y el último es el límite superior.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># Calculando integral definida para [0, 3]</span>
+<span class="n">Integral</span><span class="p">(</span><span class="n">fx</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span><span class="o">.</span><span class="n">doit</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[20]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$- \frac{27}{4}$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="c1"># Comprobando Teorema fundamental del calculo.</span>
+<span class="c1"># Integración y diferenciacion son operaciones inversas.</span>
+<span class="n">diff</span><span class="p">(</span><span class="n">integrate</span><span class="p">(</span><span class="n">fx</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[21]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$x^{3} - 6 x$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight-ipynb"><pre class="ipynb"><span></span><span class="n">integrate</span><span class="p">(</span><span class="n">diff</span><span class="p">(</span><span class="n">fx</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[22]:</div>
+
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$x^{3} - 6 x$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Como podemos ver, el método para calcular las <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integrales</a></em> con <a href="https://www.python.org/">Python</a>, es muy similar a lo que ya veníamos utilizando al calcular <em><a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico">Límites</a></em> y <em><a href="https://es.wikipedia.org/wiki/Derivada">Derivadas</a></em>. Para calcular <em><a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Integrales</a></em> en forma numérica, también podemos recurrir al módulo <em><a href="https://docs.scipy.org/doc/scipy/reference/integrate.html">scipy.integrate</a></em>, el cual es muy útil para resolver <a href="https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_diferencial">ecuaciones diferenciales</a>, pero eso ya va a quedar para otro artículo.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Con esto concluyo esta introducción por el fascinante mundo del <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a>, espero lo hayan disfrutado tanto como yo!</p>
+<p>Saludos!</p>
+<p><em>Este post fue escrito utilizando Jupyter notebook. Pueden descargar este <a href="https://github.com/relopezbriega/relopezbriega.github.io/blob/master/downloads/pyCalculus.ipynb">notebook</a> o ver su version estática en <a href="https://nbviewer.ipython.org/github/relopezbriega/relopezbriega.github.io/blob/master/downloads/pyCalculus.ipynb">nbviewer</a>.</em></p>
+
+</div>
+</div>
+</div>
+ 
+
+</p>
+								</article>
+						</div>
+					</div>
+				</div>
+			</section>
+	</div>
+</div>
+
+				</div>
+			</div>
+
+		<!-- Footer Wrapper -->
+			<div id="footer-wrapper">
+				<!-- Footer -->
+					<section id="footer" class="container">
+						<div class="row">
+							<div class="8u">
+								<section>
+									<header>
+										<h2>Latest articles</h2>
+									</header>
+									<ul class="dates">
+										<li>
+											<span class="date">lun 22 octubre 2018</span>
+											<h3><a href="/blog/2018/10/22/probabilidad-y-estadistica-con-python/">Probabilidad y Estadística con Python</a></h3>
+											<p><p>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Actualmente con el boom de la <a href="https://es.wikipedia.org/wiki/Big_data">Big Data</a>, tener nociones de <em><a href="https://es.wikipedia.org/wiki/Probabilidad">probabilidad</a></em> y <em><a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica">estadística</a></em>  se ha hecho fundamental. En los últimos años ha habido un resurgimiento de todo lo relacionado con <em><a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica">estadística</a></em> , <em><a href="https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos">data mining</a></em> y <em><a href="https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico">machine learning</a></em> empujados principalmente por la explosión de datos con que contamos, estos conceptos combinados …</p></div></div></div></p></p>
+										</li>
+										<li>
+											<span class="date">sáb 20 octubre 2018</span>
+											<h3><a href="/blog/2018/10/20/introduccion-al-calculo-con-python/">Introducción al Cálculo con Python</a></h3>
+											<p><p>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Introducci&#243;n">Introducci&#243;n<a class="anchor-link" href="#Introducci&#243;n">&#182;</a></h2><p>El <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal">Cálculo</a> es una rama muy importante de la <a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica">Matemática</a> moderna; tiene profundas raíces en problemas físicos y  gran parte de su potencia y belleza derivan de la variedad de sus aplicaciones.
+Las subramas conocidas como <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n">Cálculo integral</a> y <a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial">Cálculo diferencial</a> son instrumentos naturales y poderosos para atacar múltiples …</p></div></div></div></p></p>
+										</li>
+									</ul>
+								</section>
+							</div>
+								<div class="4u">
+									<section>
+										<header>
+											<h2>What's this all about?</h2>
+										</header>
+											<a href="http://scipyla.org/" class="image image-full"><img src="/img/scipyla.nav.svg" alt="" /></a>
+										<p>
+										Revista de Python orientado a las ciencias mantenida por la comunidad de SciPyLA
+										</p>
+										<footer>
+												<a href="http://scipyla.org/" class="button">Find out more</a>
+										</footer>
+									</section>
+								</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<section>
+									<header>
+										<h2>Blogroll</h2>
+									</header>
+									<ul class="divided">
+											<li><a href="http://getpelican.com/">Pelican</a></li>
+											<li><a href="http://python.org/">Python.org</a></li>
+											<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+											<li><a href="#">You can modify those links in your config file</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="4u">
+								<section>
+									<header>
+										<h2>Categories</h2>
+									</header>
+									<ul class="divided">
+											<li><a href="/category/calculo.html">Calculo</a></li>
+											<li><a href="/category/pobabilidad-y-estadistica.html">Pobabilidad y Estadistica</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="4u">
+
+								<section>
+									<header>
+										<h2>Contact</h2>
+									</header>
+									<ul class="social">
+											<li class="facebook"><a href="https://www.facebook.com/scipyla" class="icon48 icon48-1">Facebook</a></li>
+											<li class="twitter"><a href="http://twitter.com/ScipyLA" class="icon48 icon48-2">Twitter</a></li>
+									</ul>
+								</section>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; SciPyLA	</li>
+											<li>Images: <a href="http://facebook.com/DreametryDoodle">Dreametry Doodle</a> + <a href="http://iconify.it">Iconify.it</a></li>
+											<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+							</div>
+						</div>
+					</section>
+			</div>
+		<script src="/theme/js/jquery.min.js"></script>
+		<script src="/theme/js/jquery.dropotron.js"></script>
+		<script src="/theme/js/config.js"></script>
+		<script src="/theme/js/skel.min.js"></script>
+		<script src="/theme/js/skel-panels.min.js"></script>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
+	</body>
+</html>
