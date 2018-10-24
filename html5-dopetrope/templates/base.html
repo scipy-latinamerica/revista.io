@@ -47,6 +47,9 @@
 				window.SITEURL = "{{SITEURL}}"
 			</script>
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+			
+			{% block extra_css %}{% endblock %}
+			
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
 			<script type="text/javascript">
 			init_mathjax = function() {
@@ -66,6 +69,16 @@
 			}
 			init_mathjax();
 			</script>
+
+			<script src="{{SITEURL}}/theme/js/jquery.min.js"></script>
+			<script src="{{SITEURL}}/theme/js/jquery.dropotron.js"></script>
+			<script src="{{SITEURL}}/theme/js/config.js"></script>
+			<script src="{{SITEURL}}/theme/js/skel.min.js"></script>
+			<script src="{{SITEURL}}/theme/js/skel-panels.min.js"></script>
+			<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="{{SITEURL}}/theme/css/ie8.css" /><![endif]-->
+
+			{% block extra_js %}{% endblock %}
+
 		{% endblock head %}
 	</head>
 	<body class="no-sidebar">
@@ -139,6 +152,8 @@
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">
 				<div class="container">
+					{% block top_center %}
+					{% endblock %}
 					{% block content %}
 					{% endblock %}
 
@@ -279,12 +294,7 @@
 						{% endif %}
 					</section>
 			</div>
-		<script src="{{SITEURL}}/theme/js/jquery.min.js"></script>
-		<script src="{{SITEURL}}/theme/js/jquery.dropotron.js"></script>
-		<script src="{{SITEURL}}/theme/js/config.js"></script>
-		<script src="{{SITEURL}}/theme/js/skel.min.js"></script>
-		<script src="{{SITEURL}}/theme/js/skel-panels.min.js"></script>
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="{{SITEURL}}/theme/css/ie8.css" /><![endif]-->
+		
 		{% include 'analytics.html' %}
 	</body>
 </html>

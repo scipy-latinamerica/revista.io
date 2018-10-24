@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'SciPyLA'
 SITENAME = 'Revista SciPyLA'
-SITEURL = 'https://scipy-latinamerica.github.io/revista.io'
+SITEURL = ''
 
 PATH = 'content'
 

@@ -10,13 +10,14 @@
 
 {% block extra_css %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css"/>
-{% endblock %}
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  {% endblock %}
 
 {% block extra_js %}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_content.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.min.js"></script>
-
+  
   <script>
     $(document).ready(function() {
       $('#tipue_search_input').tipuesearch({
