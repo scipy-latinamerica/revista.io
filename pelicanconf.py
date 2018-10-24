@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'SciPyLA'
 SITENAME = 'Revista SciPyLA'
-SITEURL = 'https://scipy-latinamerica.github.io/revista.io/'
+SITEURL = 'https://scipy-latinamerica.github.io/revista.io'
 
 PATH = 'content'
 
@@ -43,10 +43,17 @@ THEME = 'html5-dopetrope/'
 
 PLUGIN_PATHS = ['pelican-plugins']
 
-PLUGINS = ['liquid_tags.notebook']
+PLUGINS = ['liquid_tags.notebook', 'tipue_search']
 
 # Search
-SEARCH_BOX = True
+#GOOGLE_SEARCH = True
+TIPUE_SEARCH = True
+
+#TEMPLATE_PAGES = {
+#        'search.html': 'search.html',
+#        }
+
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'search']
 
 # Theme variables
 ABOUT_TEXT = "Revista de Python orientado a las ciencias mantenida por la comunidad de SciPyLA"
