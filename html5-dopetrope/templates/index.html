@@ -18,7 +18,7 @@
                         </header>
                         {{ article.summary }}
                         <footer class="actions">
-                            <a href="{{ SITEURL }}/{{ article.url }}" class="button button-icon button-icon-1">Continue Reading</a>
+                            <a href="{{ SITEURL }}/{{ article.url }}" class="button button-icon button-icon-1">Leer más</a>
                         </footer>
                     </section>
                 </div>
@@ -36,7 +36,7 @@
                         <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html">&laquo;</a>
                     {% endif %}
                 {% endif %}
-                Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}
+                Página {{ articles_page.number }} / {{ articles_paginator.num_pages }}
                 {% if articles_page.has_next() %}
                     <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html">&raquo;</a>
                 {% endif %}
