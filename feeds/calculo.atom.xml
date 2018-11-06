@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Revista SciPyLA - Calculo</title><link href="https://scipy-latinamerica.github.io/revista.io/" rel="alternate"></link><link href="https://scipy-latinamerica.github.io/revista.io/feeds/calculo.atom.xml" rel="self"></link><id>https://scipy-latinamerica.github.io/revista.io/</id><updated>2018-10-20T00:00:00-03:00</updated><entry><title>Introducción al Cálculo con Python</title><link href="https://scipy-latinamerica.github.io/revista.io/blog/2018/10/20/introduccion-al-calculo-con-python/" rel="alternate"></link><published>2018-10-20T00:00:00-03:00</published><updated>2018-10-20T00:00:00-03:00</updated><author><name>Raul E. Lopez Briega</name></author><id>tag:scipy-latinamerica.github.io,2018-10-20:/revista.io/blog/2018/10/20/introduccion-al-calculo-con-python/</id><summary type="html">&lt;p&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Introducci&amp;#243;n"&gt;Introducci&amp;#243;n&lt;a class="anchor-link" href="#Introducci&amp;#243;n"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;El &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"&gt;Cálculo&lt;/a&gt; es una rama muy importante de la &lt;a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica"&gt;Matemática&lt;/a&gt; moderna; tiene profundas raíces en problemas físicos y  gran parte de su potencia y belleza derivan de la variedad de sus aplicaciones.
 Las subramas conocidas como &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Cálculo integral&lt;/a&gt; y &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial"&gt;Cálculo diferencial&lt;/a&gt; son instrumentos naturales y poderosos para atacar múltiples …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Introducci&amp;#243;n"&gt;Introducci&amp;#243;n&lt;a class="anchor-link" href="#Introducci&amp;#243;n"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;El &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"&gt;Cálculo&lt;/a&gt; es una rama muy importante de la &lt;a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica"&gt;Matemática&lt;/a&gt; moderna; tiene profundas raíces en problemas físicos y  gran parte de su potencia y belleza derivan de la variedad de sus aplicaciones.
 Las subramas conocidas como &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Cálculo integral&lt;/a&gt; y &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial"&gt;Cálculo diferencial&lt;/a&gt; son instrumentos naturales y poderosos para atacar múltiples problemas que surgen en &lt;a href="https://es.wikipedia.org/wiki/F%C3%ADsica"&gt;Física&lt;/a&gt;, &lt;a href="https://es.wikipedia.org/wiki/Astronom%C3%ADa"&gt;Astronomía&lt;/a&gt;, &lt;a href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa"&gt;Ingeniería&lt;/a&gt;, &lt;a href="https://es.wikipedia.org/wiki/Qu%C3%ADmica"&gt;Química&lt;/a&gt;, &lt;a href="https://es.wikipedia.org/wiki/Geolog%C3%ADa"&gt;Geología&lt;/a&gt;, &lt;a href="https://es.wikipedia.org/wiki/Biolog%C3%ADa"&gt;Biología&lt;/a&gt;, y en otros campos de las ciencias. 
@@ -23,8 +21,7 @@ Este método fue usado satisfactoriamente por &lt;a href="https://es.wikipedia.o
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Funciones"&gt;Funciones&lt;a class="anchor-link" href="#Funciones"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Las &lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Funciones&lt;/a&gt; son los objetos fundamentales con los que tratamos en el &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"&gt;Cálculo&lt;/a&gt;. Las mismas pueden ser representadas de diferentes maneras: por una &lt;a href="https://es.wikipedia.org/wiki/Ecuaci%C3%B3n"&gt;ecuación&lt;/a&gt;, en una tabla, por un gráfico, o en palabras. Se utilizan principalmente como modelos matemáticos para representar fenómenos del mundo real.&lt;/p&gt;
 &lt;p&gt;La palabra &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt; fue introducida en las &lt;a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica"&gt;Matemáticas&lt;/a&gt; por &lt;a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz"&gt;Leibniz&lt;/a&gt;, quien utilizaba este término para designar cierto tipo de fórmulas matemáticas. Una &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt;  surge cada vez que una cantidad depende de otra. Más precisamente la definición de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt; es esencialmente la siguiente: Dados dos conjuntos de objetos, el conjunto X y el conjunto Y, una &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt; es una regla que asocia a cada objeto de X, uno y sólo un, objeto en Y. El conjunto X se denomina el &lt;em&gt;dominio&lt;/em&gt; de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt;. Los objetos de Y, asociados con los objetos en X forman otro conjunto denominado el &lt;em&gt;recorrido&lt;/em&gt; de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt;. Generalmente se utilizan las letras $f, g, h, G$ y $H$ para designarlas. Si $f$ es una función dada y $x$ es un objeto de su dominio, la notación $f(x)$ se
@@ -32,8 +29,7 @@ utiliza para designar el objeto que en el recorrido corresponde a $x$, en la &lt
 &lt;p&gt;Muchas veces resulta útil pensar en una &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt; como si fuera una máquina. Si $x$ está en el dominio de la función $f$, entonces cuando $x$ entra en la máquina, se acepta como una entrada y la máquina produce una salida $f(x)$ de acuerdo a la regla de la función. Así, podemos pensar al &lt;em&gt;dominio&lt;/em&gt; como el conjunto de todas las entradas posibles y al &lt;em&gt;recorrido&lt;/em&gt; como el conjunto de todas las salidas posibles.&lt;/p&gt;
 &lt;p&gt;El método más común para la visualización de una &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt; es su &lt;a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n"&gt;gráfica&lt;/a&gt;. Si $f$ es una &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt; con
 dominio $D$, a continuación, su &lt;a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n"&gt;gráfica&lt;/a&gt; es el conjunto de &lt;a href="https://es.wikipedia.org/wiki/Pares_ordenados"&gt;pares ordenados&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;$$\{(x, f(x)) \mid x \in D \} $$&lt;/p&gt;
-&lt;p&gt;Aquí debemos tener en cuenta que el par $(x, f(x))$, es un par &lt;em&gt;entrada-salida&lt;/em&gt;, el valor de $x$ representa el valor de entrada, mientras que el valor de $f(x)$ representa la salida de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt;.  En otras palabras, la &lt;a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n"&gt;gráfica&lt;/a&gt; de $f$ se compone de todos puntos $(x, y)$ en el plano de coordenadas tal que $y=f(x)$ y $x$ está en el &lt;em&gt;dominio&lt;/em&gt; de $f$.
+$$\{(x, f(x)) \mid x \in D \} $$&lt;p&gt;Aquí debemos tener en cuenta que el par $(x, f(x))$, es un par &lt;em&gt;entrada-salida&lt;/em&gt;, el valor de $x$ representa el valor de entrada, mientras que el valor de $f(x)$ representa la salida de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt;.  En otras palabras, la &lt;a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n"&gt;gráfica&lt;/a&gt; de $f$ se compone de todos puntos $(x, y)$ en el plano de coordenadas tal que $y=f(x)$ y $x$ está en el &lt;em&gt;dominio&lt;/em&gt; de $f$.
 La &lt;a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n"&gt;gráfica&lt;/a&gt; de una &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt; $f$ nos da una imagen útil del comportamiento o la "historia de vida" de la misma.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Gráfica de funciones" title="Gráfica de funciones" src="https://relopezbriega.github.io/images/funciones_graf.png
 " width="500px" height="400px"&gt;&lt;/p&gt;
@@ -53,14 +49,13 @@ La &lt;a href="https://es.wikipedia.org/wiki/Gr%C3%A1fica_de_una_funci%C3%B3n"&g
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sqrt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;En este ejemplo, primero estamos importando la librería &lt;a href="https://www.numpy.org/"&gt;numpy&lt;/a&gt;, para trabajar más fácilmente con &lt;a href="https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica"&gt;vectores&lt;/a&gt;, los cuales simplifican los cálculos numéricos.
 Luego utilizamos la instrucción &lt;code&gt;def&lt;/code&gt; para definir la función, que este caso se va a llamar f y va a tener como único parámetro al objeto x. Esta función nos va a devolver el valor de la raíz cuadrada de $x + 2$. Ahora, si por ejemplo quisiéramos saber los valores de la función $f(x)$ para los $x, -2, -1, 0, 2, 4$ y $6$. podríamos invocar a esta función de la siguiente manera:&lt;/p&gt;
@@ -78,7 +73,7 @@ Luego utilizamos la instrucción &lt;code&gt;def&lt;/code&gt; para definir la fu
 &lt;span class="n"&gt;y&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -88,7 +83,7 @@ Luego utilizamos la instrucción &lt;code&gt;def&lt;/code&gt; para definir la fu
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[2]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[2]:&lt;/div&gt;
 
 
 
@@ -105,8 +100,7 @@ Luego utilizamos la instrucción &lt;code&gt;def&lt;/code&gt; para definir la fu
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Si quisiéramos verlo en forma de tabla, podemos ayudarnos de la librería &lt;a href="https://pandas.pydata.org/"&gt;pandas&lt;/a&gt; y su &lt;a href="https://es.wikipedia.org/wiki/Estructura_de_datos"&gt;estructura de datos&lt;/a&gt; &lt;a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html"&gt;DataFrame&lt;/a&gt;, la cual tiene una forma tabular.&lt;/p&gt;
 
@@ -124,7 +118,7 @@ Luego utilizamos la instrucción &lt;code&gt;def&lt;/code&gt; para definir la fu
 &lt;span class="n"&gt;tabla&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -134,7 +128,7 @@ Luego utilizamos la instrucción &lt;code&gt;def&lt;/code&gt; para definir la fu
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[3]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[3]:&lt;/div&gt;
 
 
 
@@ -191,8 +185,7 @@ Luego utilizamos la instrucción &lt;code&gt;def&lt;/code&gt; para definir la fu
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Por último, si quisiéramos graficar funciones con &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;, podemos utilizar la librería &lt;a href="https://matplotlib.org/"&gt;Matplotlib&lt;/a&gt;, y pasarle los valores de $x$ e $y$ al método &lt;code&gt;plot&lt;/code&gt; del objeto &lt;code&gt;pyplot&lt;/code&gt;.&lt;/p&gt;
 
@@ -232,7 +225,7 @@ Luego utilizamos la instrucción &lt;code&gt;def&lt;/code&gt; para definir la fu
 &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -242,7 +235,7 @@ Luego utilizamos la instrucción &lt;code&gt;def&lt;/code&gt; para definir la fu
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+    &lt;div class="prompt"&gt;&lt;/div&gt;
 
 
 
@@ -465,8 +458,7 @@ Mv8fMGCXE6lnZw4AAAAASUVORK5CYII=
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="L&amp;#237;mites"&gt;L&amp;#237;mites&lt;a class="anchor-link" href="#L&amp;#237;mites"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Uno de los conceptos más importantes dentro del &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"&gt;Cálculo&lt;/a&gt; es el concepto de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt;. Se dice que una función $f$ tiende hacia el &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt; $l$ cerca de $a$, si se puede hacer que $f(x)$ este tan próxima como queramos de $l$, haciendo que $x$ esté suficientemente cerca de $a$, pero siendo distinta de $a$. Así por ejemplo si analizamos la función $f(x) = x^2 - x + 2$, para los valores cercanos a 2, podríamos ver los siguientes resultados.&lt;/p&gt;
 
@@ -488,7 +480,7 @@ Mv8fMGCXE6lnZw4AAAAASUVORK5CYII=
 &lt;span class="n"&gt;tabla&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -498,7 +490,7 @@ Mv8fMGCXE6lnZw4AAAAASUVORK5CYII=
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[5]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[5]:&lt;/div&gt;
 
 
 
@@ -585,12 +577,10 @@ Mv8fMGCXE6lnZw4AAAAASUVORK5CYII=
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;de acuerdo con esta tabla, podemos ver que a medida que hacemos al valor de $x$ cercano a 2, vemos que $f(x)$ se hace muy cercana a 4. Incluso podríamos hacer a $f(x)$ tan cercana como queramos a 4, haciendo que $x$ este lo suficientemente cerca de 2. Por lo tanto, podemos expresar esta propiedad diciendo que el &lt;em&gt;"&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt; de la función $f(x) = x^2 - x + 2$ cuando $x$ se acerca a 2 es igual a 4."&lt;/em&gt; y lo podemos representar con la siguiente notación:&lt;/p&gt;
-&lt;p&gt;$$\lim_{x\to 2} \left(x^2 -x + 2\right) = 4$$&lt;/p&gt;
-&lt;p&gt;Gráficamente lo podemos ver del siguiente modo.&lt;/p&gt;
+$$\lim_{x\to 2} \left(x^2 -x + 2\right) = 4$$&lt;p&gt;Gráficamente lo podemos ver del siguiente modo.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -614,7 +604,7 @@ Mv8fMGCXE6lnZw4AAAAASUVORK5CYII=
 &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -624,7 +614,7 @@ Mv8fMGCXE6lnZw4AAAAASUVORK5CYII=
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+    &lt;div class="prompt"&gt;&lt;/div&gt;
 
 
 
@@ -885,8 +875,7 @@ KeUi/w9xB0XdBcbfYwAAAABJRU5ErkJggg==
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h3 id="Las-leyes-de-los-l&amp;#237;mites"&gt;Las leyes de los l&amp;#237;mites&lt;a class="anchor-link" href="#Las-leyes-de-los-l&amp;#237;mites"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Calcular el valor exacto de los &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límites&lt;/a&gt;&lt;/em&gt; muchas veces no suele tan fácil como reemplazar el valor de $a$ en $f(x)$. Es por esto que es importante conocer algunas propiedades de los &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límites&lt;/a&gt;&lt;/em&gt;, ellas son:&lt;/p&gt;
 &lt;ol&gt;
@@ -924,7 +913,7 @@ KeUi/w9xB0XdBcbfYwAAAABJRU5ErkJggg==
 &lt;span class="n"&gt;Limit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# Creando el objeto Limit&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -934,7 +923,7 @@ KeUi/w9xB0XdBcbfYwAAAABJRU5ErkJggg==
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[7]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[7]:&lt;/div&gt;
 
 
 
@@ -958,7 +947,7 @@ $$\lim_{x \to 2^+}\left(x^{2} - x + 2\right)$$
 &lt;span class="n"&gt;Limit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;doit&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -968,7 +957,7 @@ $$\lim_{x \to 2^+}\left(x^{2} - x + 2\right)$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[8]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[8]:&lt;/div&gt;
 
 
 
@@ -992,7 +981,7 @@ $$4$$
 &lt;span class="n"&gt;limit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1002,7 +991,7 @@ $$4$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[9]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[9]:&lt;/div&gt;
 
 
 
@@ -1026,7 +1015,7 @@ $$4$$
 &lt;span class="n"&gt;Limit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;S&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Infinity&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1036,7 +1025,7 @@ $$4$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[10]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[10]:&lt;/div&gt;
 
 
 
@@ -1059,7 +1048,7 @@ $$\lim_{x \to \infty} \frac{1}{x}$$
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Limit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;S&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Infinity&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;doit&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1069,7 +1058,7 @@ $$\lim_{x \to \infty} \frac{1}{x}$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[11]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[11]:&lt;/div&gt;
 
 
 
@@ -1085,8 +1074,7 @@ $$0$$
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Como vemos, primero creamos el símbolo para representar a la variable x utilizando el objeto &lt;code&gt;Symbol&lt;/code&gt;, y luego creamos nuestro límite utilizando el objeto &lt;code&gt;Limit&lt;/code&gt;. Por último para resolver el límite, simplemente llamamos al método &lt;code&gt;doit()&lt;/code&gt; sobre el objeto &lt;code&gt;Limit&lt;/code&gt; que acabamos de crear. También podemos calcular los &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límites&lt;/a&gt;&lt;/em&gt; de valores de $x$ que tiendan hacia el &lt;a href="https://es.wikipedia.org/wiki/Infinito"&gt;infinito&lt;/a&gt; utilizando la &lt;em&gt;clase&lt;/em&gt; especial &lt;code&gt;S.Infinity&lt;/code&gt; que nos proporciona &lt;a href="https://www.sympy.org/es/"&gt;SymPy&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ahora que ya conocemos que es una &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica"&gt;Función&lt;/a&gt;&lt;/em&gt; y que es un &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt;, ya estamos en condiciones de adentrarnos en el &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial"&gt;Cálculo diferencial&lt;/a&gt; y analizar el concepto de &lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;.&lt;/p&gt;
@@ -1099,20 +1087,14 @@ Aunque la derivada se introdujo inicialmente para el estudio del problema de la 
 &lt;p&gt;La &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; de una función es una medida de la rapidez con la que cambia el valor de dicha función, según cambie el valor de su &lt;a href="https://es.wikipedia.org/wiki/Variable_independiente"&gt;variable independiente&lt;/a&gt;. La &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; de una función es un concepto local, es decir, se calcula como el &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;límite&lt;/a&gt;&lt;/em&gt; de la rapidez de cambio medio de la función en un cierto intervalo, cuando el intervalo considerado para la variable independiente se torna cada vez más pequeño. Por ello se habla del valor de la derivada de una cierta función en un punto dado.
 Entonces el valor de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; de una función en un punto puede interpretarse geométricamente, ya que se corresponde con la &lt;strong&gt;pendiente de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Recta_tangente"&gt;recta tangente&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; a la gráfica de la función en dicho punto. La &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Recta_tangente"&gt;recta tangente&lt;/a&gt;&lt;/em&gt; es a su vez la gráfica de la mejor aproximación lineal de la función alrededor de dicho punto. La noción de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; puede generalizarse para el caso de funciones de más de una variable con la &lt;a href="https://es.wikipedia.org/wiki/Derivada_parcial"&gt;derivada parcial&lt;/a&gt; y el &lt;a href="https://es.wikipedia.org/wiki/Diferencial_de_una_funci%C3%B3n"&gt;diferencial&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Matemáticamente, la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; es una caso especial de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt;, el cual surge cada vez que queremos calcular la pendiente de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Recta_tangente"&gt;recta tangente&lt;/a&gt;&lt;/em&gt; o la &lt;em&gt;velocidad de cambio&lt;/em&gt; de un objeto. Éste &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt; ocurre tan frecuentemente que se le ha da un notación y un nombre determinados. Así &lt;strong&gt;la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; de una función $f$ en el punto a&lt;/strong&gt;, representada por $f'(a)$, es:&lt;/p&gt;
-&lt;p&gt;$$f'(a) = \lim_{h \to 0}\frac{f(a + h) - f(a)}{h}$$&lt;/p&gt;
-&lt;p&gt;donde $h$ representa la variación de $a$.
+$$f'(a) = \lim_{h \to 0}\frac{f(a + h) - f(a)}{h}$$&lt;p&gt;donde $h$ representa la variación de $a$.
 Esta misma definición, puede ser representada también del siguiente modo, utilizando la notación de &lt;a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz"&gt;Leibniz&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;$$\frac{dy}{dx} = \lim_{dx \to 0}\frac{f(x + dx) - f(x)}{dx}$$&lt;/p&gt;
-&lt;p&gt;Así, por ejemplo si quisiéramos saber cuál es la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; de la función $f(x) = x^3$, podemos aplicar la definición anterior del siguiente modo.&lt;/p&gt;
+$$\frac{dy}{dx} = \lim_{dx \to 0}\frac{f(x + dx) - f(x)}{dx}$$&lt;p&gt;Así, por ejemplo si quisiéramos saber cuál es la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; de la función $f(x) = x^3$, podemos aplicar la definición anterior del siguiente modo.&lt;/p&gt;
 &lt;p&gt;Comenzamos, definiendo a $f(x + dx) = (x + dx)^3$, luego expandimos a:&lt;/p&gt;
-&lt;p&gt;$$(x + dx)^3 = f(x + dx) = x^3 + 3x^2dx + 3xdx^2 + dx^3$$&lt;/p&gt;
-&lt;p&gt;Luego reemplazamos esta función en nuestra definición de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;$$\frac{dx}{dy} = \frac{x^3 + 3x^2dx + 3xdx^2 + dx^3 - x^3}{dx}$$&lt;/p&gt;
-&lt;p&gt;Simplificamos los términos:&lt;/p&gt;
-&lt;p&gt;$$\frac{dx}{dy} = \frac{3x^2dx + 3xdx^2 + dx^3}{dx} \Rightarrow 3x^2 + 3xdx + dx^2$$&lt;/p&gt;
-&lt;p&gt;y cuando $dx$ tiende a cero, obtenemos finalmente la función &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;$$\frac{d}{dx}x^3 = 3x^2$$&lt;/p&gt;
-&lt;h3 id="Reglas-de-Derivaci&amp;#243;n"&gt;Reglas de Derivaci&amp;#243;n&lt;a class="anchor-link" href="#Reglas-de-Derivaci&amp;#243;n"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Si fuera siempre necesario calcular las &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt; directamente de la definición, como hicimos anteriormente, éstos cálculos podrían ser tediosos y complicados. Afortunadamente, varias reglas se han desarrollado para encontrar &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt; sin tener que usar la definición directamente. Estas fórmulas simplifican enormemente la tarea de la diferenciación y se conocen como &lt;a href="https://es.wikipedia.org/wiki/Reglas_de_derivaci%C3%B3n"&gt;reglas de derivación&lt;/a&gt;. Algunas de ellas son las siguientes:&lt;/p&gt;
+$$(x + dx)^3 = f(x + dx) = x^3 + 3x^2dx + 3xdx^2 + dx^3$$&lt;p&gt;Luego reemplazamos esta función en nuestra definición de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+$$\frac{dx}{dy} = \frac{x^3 + 3x^2dx + 3xdx^2 + dx^3 - x^3}{dx}$$&lt;p&gt;Simplificamos los términos:&lt;/p&gt;
+$$\frac{dx}{dy} = \frac{3x^2dx + 3xdx^2 + dx^3}{dx} \Rightarrow 3x^2 + 3xdx + dx^2$$&lt;p&gt;y cuando $dx$ tiende a cero, obtenemos finalmente la función &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+$$\frac{d}{dx}x^3 = 3x^2$$&lt;h3 id="Reglas-de-Derivaci&amp;#243;n"&gt;Reglas de Derivaci&amp;#243;n&lt;a class="anchor-link" href="#Reglas-de-Derivaci&amp;#243;n"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Si fuera siempre necesario calcular las &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt; directamente de la definición, como hicimos anteriormente, éstos cálculos podrían ser tediosos y complicados. Afortunadamente, varias reglas se han desarrollado para encontrar &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt; sin tener que usar la definición directamente. Estas fórmulas simplifican enormemente la tarea de la diferenciación y se conocen como &lt;a href="https://es.wikipedia.org/wiki/Reglas_de_derivaci%C3%B3n"&gt;reglas de derivación&lt;/a&gt;. Algunas de ellas son las siguientes:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th style="text-align:left"&gt;Funciones comunes&lt;/th&gt;
@@ -1201,8 +1183,7 @@ Esta misma definición, puede ser representada también del siguiente modo, util
 &lt;p&gt;6- &lt;strong&gt;Regla del cociente:&lt;/strong&gt; Esta regla establece que la derivada de un cociente de dos funciones es la función ubicada en el denominador por la derivada del numerador menos la derivada de la función en el denominador por la función del numerador sin derivar, todo sobre la función del denominador al cuadrado. Es decir, $\left(\frac{f}{g}\right)'=\frac{f'g-fg'}{g^{2}}$. Por ejemplo, para obtener la derivada de la función $h(x) = \frac{3x + 1}{2x}$, aplicando la formula obtenemos que $h'(x) = \frac{3 \cdot (2x) - (3x + 1) \cdot 2}{2x^2}$, y simplificando llegamos al resultado final de $h'(x) = -\frac{1}{2x^2}$.&lt;/p&gt;
 &lt;p&gt;7- &lt;strong&gt;Regla de la cadena:&lt;/strong&gt; La regla de la cadena es una fórmula para calcular la derivada de la composición de dos o más funciones. Esto es, si $f$ y $g$ son dos funciones, entonces la regla de la cadena expresa la derivada de la función compuesta $f(g(x))$ en términos de las derivadas de $f$ y $g$. Esta derivada va a ser calculada de acuerdo a la siguiente formula: $f'(g(x)) = f'(g(x)) \cdot g'(x)$. Por ejemplo, si quisiéramos saber la derivada de la función $h(x) = \sin(x^2)$, aplicando la formula obtenemos que $h'(x) = \cos(g(x)) \cdot 2x$, lo que es igual a $h'(x) = 2x \cos(x^2)$.&lt;/p&gt;
 &lt;h3 id="Derivadas-de-mayor-orden"&gt;Derivadas de mayor orden&lt;a class="anchor-link" href="#Derivadas-de-mayor-orden"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Si tenemos una función $f$, de la cual podemos obtener su derivada $f'$, la cual también es otra función que podemos derivar, entonces podemos obtener la &lt;em&gt;derivada de segundo orden&lt;/em&gt; de $f$, la cual representaremos como $f''$. Es decir, que la derivada de segundo orden de $f$, va a ser igual a la derivada de su derivada. Siguiendo el mismo proceso, podemos seguir subiendo en la jerarquía y obtener por ejemplo, la tercer derivada de $f$. Utilizando la notación de &lt;a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz"&gt;Leibniz&lt;/a&gt;, expresaríamos a la segunda derivada del siguiente modo:&lt;/p&gt;
-&lt;p&gt;$$\frac{d}{dy}\left(\frac{dy}{dx}\right)= \frac{d^2y}{dx^2}$$&lt;/p&gt;
-&lt;h3 id="Calculando-Derivadas-con-Python"&gt;Calculando Derivadas con Python&lt;a class="anchor-link" href="#Calculando-Derivadas-con-Python"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Con &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;, podemos resolver &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt; utilizando nuevamente la librería &lt;a href="https://www.sympy.org/es/"&gt;SymPy&lt;/a&gt;. En este caso, ahora vamos a utilizar el objeto &lt;code&gt;Derivative&lt;/code&gt;. Su sintaxis es la siguiente: &lt;code&gt;Derivative(funcion, variable, orden de derivación)&lt;/code&gt;. Lo utilizamos de la siguiente forma:&lt;/p&gt;
+$$\frac{d}{dy}\left(\frac{dy}{dx}\right)= \frac{d^2y}{dx^2}$$&lt;h3 id="Calculando-Derivadas-con-Python"&gt;Calculando Derivadas con Python&lt;a class="anchor-link" href="#Calculando-Derivadas-con-Python"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Con &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;, podemos resolver &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt; utilizando nuevamente la librería &lt;a href="https://www.sympy.org/es/"&gt;SymPy&lt;/a&gt;. En este caso, ahora vamos a utilizar el objeto &lt;code&gt;Derivative&lt;/code&gt;. Su sintaxis es la siguiente: &lt;code&gt;Derivative(funcion, variable, orden de derivación)&lt;/code&gt;. Lo utilizamos de la siguiente forma:&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1219,7 +1200,7 @@ Esta misma definición, puede ser representada también del siguiente modo, util
 &lt;span class="n"&gt;dx&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1229,7 +1210,7 @@ Esta misma definición, puede ser representada también del siguiente modo, util
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[12]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[12]:&lt;/div&gt;
 
 
 
@@ -1253,7 +1234,7 @@ $$2 x^{3} + 3 x^{2} \left(2 x + 1\right) + 4$$
 &lt;span class="n"&gt;simplify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dx&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1263,7 +1244,7 @@ $$2 x^{3} + 3 x^{2} \left(2 x + 1\right) + 4$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[13]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[13]:&lt;/div&gt;
 
 
 
@@ -1287,7 +1268,7 @@ $$8 x^{3} + 3 x^{2} + 4$$
 &lt;span class="n"&gt;Derivative&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fx&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;doit&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1297,7 +1278,7 @@ $$8 x^{3} + 3 x^{2} + 4$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[14]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[14]:&lt;/div&gt;
 
 
 
@@ -1323,7 +1304,7 @@ $$6 x \left(4 x + 1\right)$$
 &lt;span class="n"&gt;simplify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dx&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1333,7 +1314,7 @@ $$6 x \left(4 x + 1\right)$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[15]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[15]:&lt;/div&gt;
 
 
 
@@ -1357,7 +1338,7 @@ $$- \frac{1}{2 x^{2}}$$
 &lt;span class="n"&gt;simplify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;diff&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fx&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1367,7 +1348,7 @@ $$- \frac{1}{2 x^{2}}$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[16]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[16]:&lt;/div&gt;
 
 
 
@@ -1392,7 +1373,7 @@ $$- \frac{1}{2 x^{2}}$$
 &lt;span class="n"&gt;diff&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fx&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;subs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1402,7 +1383,7 @@ $$- \frac{1}{2 x^{2}}$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[17]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[17]:&lt;/div&gt;
 
 
 
@@ -1418,8 +1399,7 @@ $$- \frac{1}{2}$$
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Como podemos ver, el método para calcular las &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt; con &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;, es muy similar al que vimos anteriormente al calcular los &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límites&lt;/a&gt;&lt;/em&gt;. En el ejemplo, también utilizamos la función &lt;code&gt;simplify&lt;/code&gt;, la cual nos ayuda a simplificar los resultados; y el método &lt;code&gt;subs&lt;/code&gt; para sustituir el valor de $x$ y obtener el resultado numérico.&lt;/p&gt;
 &lt;p&gt;Ahora que ya conocemos al &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial"&gt;Cálculo diferencial&lt;/a&gt;, es tiempo de pasar hacia la otra rama del &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"&gt;Cálculo&lt;/a&gt;, el &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Cálculo integral&lt;/a&gt;, y analizar el concepto de &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integración&lt;/a&gt;.&lt;/p&gt;
@@ -1428,17 +1408,14 @@ $$- \frac{1}{2}$$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Integrales"&gt;Integrales&lt;a class="anchor-link" href="#Integrales"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;La idea de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt; es el concepto básico del &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Cálculo integral&lt;/a&gt;. Pero para poder comprender este concepto, primero debemos abordar el &lt;em&gt;problema del &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt;&lt;/em&gt;. Como bien sabemos, el &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt; es una medida de la extensión de una superficie. Determinar esta medida para superficies con &lt;a href="https://es.wikipedia.org/wiki/Recta"&gt;líneas rectas&lt;/a&gt;, suele ser bastante fácil. Por ejemplo para un rectángulo, su &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt; se define como el producto de la longitud y el ancho. O para un triángulo como la mitad de la base por la altura. El &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt; de cualquier otro polígono se encuentra al dividirlo en triángulos y luego sumar las áreas de cada uno ellos. Pero para los casos de las regiones con &lt;a href="https://es.wikipedia.org/wiki/Curva"&gt;líneas curvas&lt;/a&gt;, el cálculo del &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt; ya no suele ser tan fácil. Para estos casos debemos recurrir a un método similar al de &lt;a href="https://es.wikipedia.org/wiki/M%C3%A9todo_exhaustivo"&gt;exhaución&lt;/a&gt; que mencionábamos en la introducción del artículo. Es decir,  que vamos a ir dividiendo la región en varios rectángulos de $\Delta x$ de ancho y luego podemos ir calculando el &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt; como la suma del las &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;áreas&lt;/a&gt; de cada uno de estos rectángulos. A medida que vamos agregando más rectángulos, haciendo $\Delta x$ cada vez más pequeño, nos vamos aproximando cada vez más al valor real del &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt; de la superficie curva. Hasta el punto de que, cuando $\Delta x$ tiende a cero, podemos alcanzar el resultado exacto del &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt; de nuestra superficie curva. Es decir, que realizando una suma de infinitamente más angostos rectángulos, podemos determinar el resultado exacto del &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt; de nuestra superficie curva. Este proceso lo podemos ver más claramente en la siguiente figura.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Proceso de integración" title="Proceso de integración" src="https://relopezbriega.github.io/images/proceso_integración.png" width="500px" height="400px"&gt;&lt;/p&gt;
 &lt;p&gt;Como vemos, al igual que pasaba con el caso de las &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt;, al querer calcular el &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt; de una superficie curva, nos encontramos ante un caso especial de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt; (aquí vemos también por qué el concepto de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt; es tan importante para el &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"&gt;Cálculo&lt;/a&gt;!). Este tipo de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt; surge en una amplia variedad de situaciones, no solo al calcular &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;áreas&lt;/a&gt;, sino que también lo podemos encontrar al calcular la distancia recorrida por un objeto o el volumen de un sólido. Por lo tanto, se le ha dado una notación y un nombre determinado. De esta forma la definición matemática de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt; definida, sería la siguiente:&lt;/p&gt;
 &lt;p&gt;Si $f$ es una función definida por $a \leqslant x \leqslant b$, podemos dividir el intervalo $[a, b]$ en $n$ subintervalos de $\Delta x(b - a) / n$ de ancho. Dónde $x_0(=a), x_1, x_2, \dots, x_n(=b)$ serán los puntos finales de estos subintervalos y $x_1^*, x_2^*, \dots, x_n^*$, serán puntos intermedios en estos subintervalos, de tal forma que $x_i^*$ se encuentre en el k-simo subintervalo $[x_{i-1}, x_i]$. Entonces la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt; definida de $f$ entre $a$ y $b$, es:&lt;/p&gt;
-&lt;p&gt;$$\int_a^b f(x) dx = \lim_{n \to \infty}\sum_{i=1}^n f(x_i^*) \Delta x $$&lt;/p&gt;
-&lt;p&gt;El símbolo de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt;, $\int$, fue introducido por &lt;a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz"&gt;Leibniz&lt;/a&gt;, viene a ser una "S" alargada y fue elegido ya que la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt; es en definitiva un &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt; de sumas &lt;a href="https://es.wikipedia.org/wiki/Infinitesimal"&gt;infinitesimales&lt;/a&gt;. En esta notación, $a$ y $b$ son los límites de la integración y $dx$ indica que $x$ es la variable independiente. La suma:&lt;/p&gt;
-&lt;p&gt;$$\sum_{i=1}^n f(x_i^*) \Delta x $$&lt;/p&gt;
-&lt;p&gt;que vemos en la definición, es conocida como la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_de_Riemann#Suma_de_Riemann"&gt;suma de Reimann&lt;/a&gt;&lt;/em&gt;, en honor al matemático alemán &lt;a href="https://es.wikipedia.org/wiki/Bernhard_Riemann"&gt;Bernhard Reimann&lt;/a&gt; que la desarrolló.&lt;/p&gt;
+$$\int_a^b f(x) dx = \lim_{n \to \infty}\sum_{i=1}^n f(x_i^*) \Delta x $$&lt;p&gt;El símbolo de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt;, $\int$, fue introducido por &lt;a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz"&gt;Leibniz&lt;/a&gt;, viene a ser una "S" alargada y fue elegido ya que la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt; es en definitiva un &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límite&lt;/a&gt;&lt;/em&gt; de sumas &lt;a href="https://es.wikipedia.org/wiki/Infinitesimal"&gt;infinitesimales&lt;/a&gt;. En esta notación, $a$ y $b$ son los límites de la integración y $dx$ indica que $x$ es la variable independiente. La suma:&lt;/p&gt;
+$$\sum_{i=1}^n f(x_i^*) \Delta x $$&lt;p&gt;que vemos en la definición, es conocida como la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_de_Riemann#Suma_de_Riemann"&gt;suma de Reimann&lt;/a&gt;&lt;/em&gt;, en honor al matemático alemán &lt;a href="https://es.wikipedia.org/wiki/Bernhard_Riemann"&gt;Bernhard Reimann&lt;/a&gt; que la desarrolló.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Integral definida" title="Integral definida" src="https://relopezbriega.github.io/images/integracion.png" width="500px" height="400px"&gt;&lt;/p&gt;
 &lt;h3 id="Integrales-definidas-e-indefinidas"&gt;Integrales definidas e indefinidas&lt;a class="anchor-link" href="#Integrales-definidas-e-indefinidas"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Una distinción importante que debemos hacer al hablar de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integrales&lt;/a&gt;&lt;/em&gt;, es la diferencia entre una &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral definida&lt;/a&gt; y una &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;integral indefinida&lt;/a&gt; o &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;antiderivada&lt;/a&gt;. Mientras que la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral definida&lt;/a&gt;, que representamos con el símbolo, $\int_a^b f(x) dx$,  es un &lt;em&gt;número&lt;/em&gt;, un resultado preciso de la medida de un &lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;área&lt;/a&gt;, distancia o volumen; la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;integral indefinida&lt;/a&gt;, que representamos como, $\int f(x) dx$,  es una &lt;em&gt;función&lt;/em&gt; o familia de funciones. Más adelante, cuando hablemos del &lt;a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo"&gt;teorema fundamental del cálculo&lt;/a&gt;, veremos por qué esta distinción es tan importante. Pero antes, veamos como podemos hacer para calcular &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integrales&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;h3 id="Reglas-de-integraci&amp;#243;n"&gt;Reglas de integraci&amp;#243;n&lt;a class="anchor-link" href="#Reglas-de-integraci&amp;#243;n"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Cómo podemos ver de la definición que dimos de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integrales&lt;/a&gt;&lt;/em&gt;, estas parecen sumamente complicadas de calcular. Por suerte, al igual que para el caso de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt;, existen varias reglas que podemos utilizar para poder calcular las &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;integrales indefinidas&lt;/a&gt;, en forma más sencilla. Algunas de ellas son:&lt;/p&gt;
@@ -1510,19 +1487,14 @@ $$- \frac{1}{2}$$
 De hecho, se dio cuenta de que la &lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;derivación&lt;/a&gt; y la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;integración&lt;/a&gt; son procesos inversos. El &lt;a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo"&gt;teorema fundamental del cálculo&lt;/a&gt; nos da la relación inversa precisa entre la   &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; y la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt;. Fueron &lt;a href="https://es.wikipedia.org/wiki/Isaac_Newton"&gt;Newton&lt;/a&gt; y &lt;a href="https://es.wikipedia.org/wiki/Gottfried_Leibniz"&gt;Leibniz&lt;/a&gt; quienes aprovecharon esta relación y la utilizaron para
 desarrollar el &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"&gt;Cálculo&lt;/a&gt;. En particular, vieron que esta relación les permitía calcular &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/%C3%81rea"&gt;áreas&lt;/a&gt;&lt;/em&gt; e  &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integrales&lt;/a&gt;&lt;/em&gt; con mucha facilidad y sin tener que calcularlas como límites de sumas. Es decir, que si tomamos una función $f$, y obtenemos primero su &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt;, y luego calculamos la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt; sobre esta función &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivada&lt;/a&gt;&lt;/em&gt; $f'(x)$. Obtenemos nuevamente función original $f$. Lo que una hace, la otra lo deshace. El &lt;a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo"&gt;teorema fundamental del cálculo&lt;/a&gt; es sin duda el teorema más importante en el &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"&gt;Cálculo&lt;/a&gt; y, de hecho, se ubica como uno de los grandes logros de la mente humana. Matemáticamente, este teorema se suele dividir en dos partes y nos dice lo siguiente:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Teorema fundamental del Calculo, parte 1.&lt;/strong&gt; si $f$ es una función continua en el intervalo $[a, b]$, entonces la función $g$ definida como:&lt;/p&gt;
-&lt;p&gt;$$g(x) = \int_a^x f(t) dt \qquad a \leqslant x \leqslant b $$&lt;/p&gt;
-&lt;p&gt;es continua en el intervalo $[a, b]$ y &lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;diferenciable&lt;/a&gt; en $(a, b)$, y $g'(x) = f(x)$.&lt;/p&gt;
+$$g(x) = \int_a^x f(t) dt \qquad a \leqslant x \leqslant b $$&lt;p&gt;es continua en el intervalo $[a, b]$ y &lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;diferenciable&lt;/a&gt; en $(a, b)$, y $g'(x) = f(x)$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Teorema fundamental del Calculo, parte 2.&lt;/strong&gt; si $f$ es una función continua en el intervalo $[a, b]$, entonces:&lt;/p&gt;
-&lt;p&gt;$$\int_a^b f(x) dx = F(b) - F(a) $$&lt;/p&gt;
-&lt;p&gt;en donde $F$ es la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;antiderivada&lt;/a&gt; de $f$, o sea, una función tal que F' = f.&lt;/p&gt;
+$$\int_a^b f(x) dx = F(b) - F(a) $$&lt;p&gt;en donde $F$ es la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;antiderivada&lt;/a&gt; de $f$, o sea, una función tal que F' = f.&lt;/p&gt;
 &lt;p&gt;En definitiva, lo que nos dice la primera parte es que las operaciones de &lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;derivación&lt;/a&gt; y de &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;integración&lt;/a&gt; son operaciones inversas. La segunda parte nos proporciona un método para calcular &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;integrales definidas&lt;/a&gt;, en base a la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;antiderivada&lt;/a&gt; o &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;integral indefinida&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Así, por ejemplo, si quisiéramos calcular la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integral&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;$$\int_0^3 (x^3 - 6x) dx$$&lt;/p&gt;
-&lt;p&gt;primero obtenemos su &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;integral indefinida&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;$$\int (x^3 - 6x) dx = \frac{x^4}{4} - 6\frac{x^2}{2}$$&lt;/p&gt;
-&lt;p&gt;y por último aplicamos la segunda parte del &lt;a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo"&gt;teorema fundamental del cálculo&lt;/a&gt; para obtener la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;integral definida&lt;/a&gt; en $[0, 3]$, reemplazando estos valores en la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;integral indefinida&lt;/a&gt; que acabamos de obtener.&lt;/p&gt;
-&lt;p&gt;$$\int_0^3 (x^3 - 6x) dx = \left(\frac{1}{4} \cdot 3^4 - 3 \cdot 3^2 \right) - \left(\frac{1}{4} \cdot 0^4 - 3 \cdot 0^2 \right) = -\frac{27}{4}$$&lt;/p&gt;
-&lt;h3 id="Calculando-Integrales-con-Python"&gt;Calculando Integrales con Python&lt;a class="anchor-link" href="#Calculando-Integrales-con-Python"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Con &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;, podemos resolver &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integrales&lt;/a&gt;&lt;/em&gt; con la ayuda de la, en este punto ya invaluable, librería &lt;a href="https://www.sympy.org/es/"&gt;SymPy&lt;/a&gt;. En este caso, vamos a utilizar el objeto &lt;code&gt;Integral&lt;/code&gt;. Su sintaxis es la siguiente: &lt;code&gt;Integral(funcion, variable)&lt;/code&gt;. Lo utilizamos de la siguiente forma:&lt;/p&gt;
+$$\int_0^3 (x^3 - 6x) dx$$&lt;p&gt;primero obtenemos su &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;integral indefinida&lt;/a&gt;.&lt;/p&gt;
+$$\int (x^3 - 6x) dx = \frac{x^4}{4} - 6\frac{x^2}{2}$$&lt;p&gt;y por último aplicamos la segunda parte del &lt;a href="https://es.wikipedia.org/wiki/Teorema_fundamental_del_c%C3%A1lculo"&gt;teorema fundamental del cálculo&lt;/a&gt; para obtener la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;integral definida&lt;/a&gt; en $[0, 3]$, reemplazando estos valores en la &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_indefinida"&gt;integral indefinida&lt;/a&gt; que acabamos de obtener.&lt;/p&gt;
+$$\int_0^3 (x^3 - 6x) dx = \left(\frac{1}{4} \cdot 3^4 - 3 \cdot 3^2 \right) - \left(\frac{1}{4} \cdot 0^4 - 3 \cdot 0^2 \right) = -\frac{27}{4}$$&lt;h3 id="Calculando-Integrales-con-Python"&gt;Calculando Integrales con Python&lt;a class="anchor-link" href="#Calculando-Integrales-con-Python"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Con &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;, podemos resolver &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integrales&lt;/a&gt;&lt;/em&gt; con la ayuda de la, en este punto ya invaluable, librería &lt;a href="https://www.sympy.org/es/"&gt;SymPy&lt;/a&gt;. En este caso, vamos a utilizar el objeto &lt;code&gt;Integral&lt;/code&gt;. Su sintaxis es la siguiente: &lt;code&gt;Integral(funcion, variable)&lt;/code&gt;. Lo utilizamos de la siguiente forma:&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1539,7 +1511,7 @@ desarrollar el &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesi
 &lt;span class="n"&gt;dx&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1549,7 +1521,7 @@ desarrollar el &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesi
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[18]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[18]:&lt;/div&gt;
 
 
 
@@ -1573,7 +1545,7 @@ $$\frac{x^{4}}{4} - 3 x^{2}$$
 &lt;span class="n"&gt;integrate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fx&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1583,7 +1555,7 @@ $$\frac{x^{4}}{4} - 3 x^{2}$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[19]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[19]:&lt;/div&gt;
 
 
 
@@ -1599,8 +1571,7 @@ $$\frac{x^{4}}{4} - 3 x^{2}$$
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;El objeto &lt;code&gt;Integral&lt;/code&gt; también nos permite calcular &lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;integrales definidas&lt;/a&gt;. En este caso, en el segundo argumento le pasamos una tupla cuyo primer elemento es la variable de integración, su segundo elemento es el límite inferior de integración y el último es el límite superior.&lt;/p&gt;
 
@@ -1616,7 +1587,7 @@ $$\frac{x^{4}}{4} - 3 x^{2}$$
 &lt;span class="n"&gt;Integral&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fx&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;doit&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1626,7 +1597,7 @@ $$\frac{x^{4}}{4} - 3 x^{2}$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[20]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[20]:&lt;/div&gt;
 
 
 
@@ -1651,7 +1622,7 @@ $$- \frac{27}{4}$$
 &lt;span class="n"&gt;diff&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;integrate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fx&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1661,7 +1632,7 @@ $$- \frac{27}{4}$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[21]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[21]:&lt;/div&gt;
 
 
 
@@ -1684,7 +1655,7 @@ $$x^{3} - 6 x$$
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;integrate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;diff&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fx&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1694,7 +1665,7 @@ $$x^{3} - 6 x$$
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[22]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[22]:&lt;/div&gt;
 
 
 
@@ -1710,8 +1681,7 @@ $$x^{3} - 6 x$$
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Como podemos ver, el método para calcular las &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integrales&lt;/a&gt;&lt;/em&gt; con &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;, es muy similar a lo que ya veníamos utilizando al calcular &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/L%C3%ADmite_matem%C3%A1tico"&gt;Límites&lt;/a&gt;&lt;/em&gt; y &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Derivada"&gt;Derivadas&lt;/a&gt;&lt;/em&gt;. Para calcular &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n"&gt;Integrales&lt;/a&gt;&lt;/em&gt; en forma numérica, también podemos recurrir al módulo &lt;em&gt;&lt;a href="https://docs.scipy.org/doc/scipy/reference/integrate.html"&gt;scipy.integrate&lt;/a&gt;&lt;/em&gt;, el cual es muy útil para resolver &lt;a href="https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_diferencial"&gt;ecuaciones diferenciales&lt;/a&gt;, pero eso ya va a quedar para otro artículo.&lt;/p&gt;
 
@@ -1719,8 +1689,7 @@ $$x^{3} - 6 x$$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Con esto concluyo esta introducción por el fascinante mundo del &lt;a href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"&gt;Cálculo&lt;/a&gt;, espero lo hayan disfrutado tanto como yo!&lt;/p&gt;
 &lt;p&gt;Saludos!&lt;/p&gt;

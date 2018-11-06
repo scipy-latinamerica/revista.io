@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Revista SciPyLA - Pobabilidad y Estadistica</title><link href="https://scipy-latinamerica.github.io/revista.io/" rel="alternate"></link><link href="https://scipy-latinamerica.github.io/revista.io/feeds/pobabilidad-y-estadistica.atom.xml" rel="self"></link><id>https://scipy-latinamerica.github.io/revista.io/</id><updated>2018-10-22T00:00:00-03:00</updated><entry><title>Probabilidad y Estadística con Python</title><link href="https://scipy-latinamerica.github.io/revista.io/blog/2018/10/22/probabilidad-y-estadistica-con-python/" rel="alternate"></link><published>2018-10-22T00:00:00-03:00</published><updated>2018-10-22T00:00:00-03:00</updated><author><name>Raul E. Lopez Briega</name></author><id>tag:scipy-latinamerica.github.io,2018-10-22:/revista.io/blog/2018/10/22/probabilidad-y-estadistica-con-python/</id><summary type="html">&lt;p&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Actualmente con el boom de la &lt;a href="https://es.wikipedia.org/wiki/Big_data"&gt;Big Data&lt;/a&gt;, tener nociones de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Probabilidad"&gt;probabilidad&lt;/a&gt;&lt;/em&gt; y &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt;  se ha hecho fundamental. En los últimos años ha habido un resurgimiento de todo lo relacionado con &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt; , &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos"&gt;data mining&lt;/a&gt;&lt;/em&gt; y &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico"&gt;machine learning&lt;/a&gt;&lt;/em&gt; empujados principalmente por la explosión de datos con que contamos, estos conceptos combinados …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Actualmente con el boom de la &lt;a href="https://es.wikipedia.org/wiki/Big_data"&gt;Big Data&lt;/a&gt;, tener nociones de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Probabilidad"&gt;probabilidad&lt;/a&gt;&lt;/em&gt; y &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt;  se ha hecho fundamental. En los últimos años ha habido un resurgimiento de todo lo relacionado con &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt; , &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos"&gt;data mining&lt;/a&gt;&lt;/em&gt; y &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico"&gt;machine learning&lt;/a&gt;&lt;/em&gt; empujados principalmente por la explosión de datos con que contamos, estos conceptos combinados forman la base de lo que actualmente se conoce como la &lt;em&gt;&lt;a href="https://en.wikipedia.org/wiki/Data_science"&gt;Ciencia de Datos&lt;/a&gt;&lt;/em&gt;. Dentro de este contexto, &lt;a href="https://python.org/"&gt;Python&lt;/a&gt; es uno de los lenguajes que más nos facilita trabajar con datos. Realizar complejos análisis estadísticos nunca fue tan fácil como con &lt;a href="https://python.org/"&gt;Python&lt;/a&gt;!&lt;/p&gt;
 
@@ -15,8 +13,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="&amp;#191;Qu&amp;#233;-es-la-Estad&amp;#237;stica?"&gt;&amp;#191;Qu&amp;#233; es la Estad&amp;#237;stica?&lt;a class="anchor-link" href="#&amp;#191;Qu&amp;#233;-es-la-Estad&amp;#237;stica?"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;La &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt; suele ser definida como la ciencia de aprender de los &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt; o como la ciencia de obtener conclusiones en la presencia de incertidumbre. Se relaciona principalmente con la recolección, análisis e interpretación de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt;, así como también con la efectiva comunicación y presentación de los resultados basados en esos &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt;. Como por &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt; entendemos a cualquier clase de información grabada, la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt; juego un rol importante en muchas disciplinas científicas.&lt;/p&gt;
 &lt;p&gt;La &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt; puede ser muy importante para una efectiva toma de decisiones. Existe una gran cantidad de valiosa información escondida entre los &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt;, pero esta información no suele ser fácilmente accesible, la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt; nos brinda los principios fundamentales que nos permiten extraer y entender esa información; tambien nos proporciona las herramientas necesarias para verificar la calidad de nuestros &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt; y nuestra información.&lt;/p&gt;
@@ -32,8 +29,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="&amp;#191;Qu&amp;#233;-es-la-Probabilidad?"&gt;&amp;#191;Qu&amp;#233; es la Probabilidad?&lt;a class="anchor-link" href="#&amp;#191;Qu&amp;#233;-es-la-Probabilidad?"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;La &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Probabilidad"&gt;probabilidad&lt;/a&gt;&lt;/em&gt; mide la mayor o menor posibilidad de que se dé un determinado resultado (suceso o evento) cuando se realiza un experimento aleatorio.
 Para calcular la probabilidad de un evento se toma en cuenta todos los casos posibles de ocurrencia del mismo; es decir, de cuántas formas puede ocurrir determinada situación.Los casos favorables de ocurrencia de un evento serán los que cumplan con la condición que estamos buscando. La &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Probabilidad"&gt;probabilidad&lt;/a&gt;&lt;/em&gt; toma valores entre 0 y 1 (o expresados en tanto por ciento, entre 0% y 100%).&lt;/p&gt;
@@ -44,8 +40,7 @@ Para calcular la probabilidad de un evento se toma en cuenta todos los casos pos
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Actividades-b&amp;#225;sicas-del-analisis-estad&amp;#237;stico"&gt;Actividades b&amp;#225;sicas del analisis estad&amp;#237;stico&lt;a class="anchor-link" href="#Actividades-b&amp;#225;sicas-del-analisis-estad&amp;#237;stico"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Las técnicas &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadísticas&lt;/a&gt;&lt;/em&gt; deberían ser vistas como una parte importante de cualquier proceso de toma de dicisiones, permitiendo tomar decisiones estratégicamente informadas que combinen intuición con experiencia y un entendimiento &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadístico&lt;/a&gt;&lt;/em&gt; de los &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt; que tenemos disponibles.&lt;/p&gt;
 &lt;p&gt;Un análisis estadístico suele contener 5 actividades básicas:&lt;/p&gt;
@@ -66,8 +61,7 @@ Para calcular la probabilidad de un evento se toma en cuenta todos los casos pos
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Conceptos-b&amp;#225;sicos-de-la-estad&amp;#237;stica-descriptiva"&gt;Conceptos b&amp;#225;sicos de la estad&amp;#237;stica descriptiva&lt;a class="anchor-link" href="#Conceptos-b&amp;#225;sicos-de-la-estad&amp;#237;stica-descriptiva"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;En &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica_descriptiva"&gt;estadística descriptiva&lt;/a&gt;&lt;/em&gt; se utilizan distintas medidas para intentar describir las propiedades de nuestros datos, algunos de los conceptos básicos, son:&lt;/p&gt;
 &lt;ul&gt;
@@ -98,8 +92,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Covarianza&lt;/strong&gt;: La &lt;a href="https://es.wikipedia.org/wiki/Covarianza"&gt;covarianza&lt;/a&gt; es el equivalente de la varianza aplicado a una variable bidimensional. Es la media aritmética de los productos de las desviaciones de cada una de las variables respecto a sus medias respectivas.La covarianza indica el sentido de la correlación entre las variables; Si $\sigma_{xy} &amp;gt; 0$ la correlación es directa; Si $\sigma_{xy} &amp;lt; 0$ la correlación es inversa.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;$$\sigma_{xy} = \frac{\sum\limits_{i=1}^n(x_i - \mu_x)(y_i -\mu_y)}{n}$$&lt;/p&gt;
-&lt;ul&gt;
+$$\sigma_{xy} = \frac{\sum\limits_{i=1}^n(x_i - \mu_x)(y_i -\mu_y)}{n}$$&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Valor atípico&lt;/strong&gt;: Un &lt;a href="https://es.wikipedia.org/wiki/Valor_at%C3%ADpico"&gt;valor atípico&lt;/a&gt; es una observación que se aleja demasiado de la moda; esta muy lejos de la tendencia principal del resto de los &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt;. Pueden ser causados por errores en la recolección de &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt; o medidas inusuales. Generalmente se recomienda eliminarlos del &lt;a href="https://es.wikipedia.org/wiki/Conjunto_de_datos"&gt;conjunto de datos&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -107,8 +100,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Librer&amp;#237;as-de-Python-para-probabilidad-y-estad&amp;#237;stica"&gt;Librer&amp;#237;as de Python para probabilidad y estad&amp;#237;stica&lt;a class="anchor-link" href="#Librer&amp;#237;as-de-Python-para-probabilidad-y-estad&amp;#237;stica"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Como ya les vengo mostrando en mis anteriores artículos, &lt;a href="https://python.org/"&gt;Python&lt;/a&gt; se lleva muy bien con las matemáticas. Además, la &lt;a href="https://www.python.org/community/"&gt;comunidad python&lt;/a&gt; es tan amplia que solemos encontrar una librería para cualquier problema al que nos enfrentemos. En este caso, los principales módulos que &lt;a href="https://python.org/"&gt;Python&lt;/a&gt; nos ofrece para trabajar con &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Probabilidad"&gt;probabilidad&lt;/a&gt;&lt;/em&gt; y &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt;, son:&lt;/p&gt;
 &lt;ul&gt;
@@ -132,8 +124,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h3 id="Ejemplos-en-Python"&gt;Ejemplos en Python&lt;a class="anchor-link" href="#Ejemplos-en-Python"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Calcular los principales indicadores de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica_descriptiva"&gt;estadística descriptiva&lt;/a&gt;&lt;/em&gt; con &lt;a href="https://python.org/"&gt;Python&lt;/a&gt; es muy fácil!.&lt;/p&gt;
 
@@ -154,7 +145,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;seed&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2131982&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# para poder replicar el random&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -168,7 +159,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;datos&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -178,7 +169,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[2]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[2]:&lt;/div&gt;
 
 
 
@@ -206,7 +197,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# Calcula la media aritmetica de&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -216,7 +207,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[3]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[3]:&lt;/div&gt;
 
 
 
@@ -239,7 +230,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# Mismo resultado desde la funcion de numpy&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -249,7 +240,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[4]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[4]:&lt;/div&gt;
 
 
 
@@ -272,7 +263,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;axis&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# media aritmetica de cada fila&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -282,7 +273,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[5]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[5]:&lt;/div&gt;
 
 
 
@@ -305,7 +296,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;axis&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# media aritmetica de cada columna&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -315,7 +306,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[6]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[6]:&lt;/div&gt;
 
 
 
@@ -339,7 +330,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;median&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; 
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -349,7 +340,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[7]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[7]:&lt;/div&gt;
 
 
 
@@ -372,7 +363,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;median&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# media aritmetica de cada columna&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -382,7 +373,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[8]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[8]:&lt;/div&gt;
 
 
 
@@ -406,7 +397,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -416,7 +407,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[9]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[9]:&lt;/div&gt;
 
 
 
@@ -439,7 +430,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# Desviación típica de cada columna&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -449,7 +440,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[10]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[10]:&lt;/div&gt;
 
 
 
@@ -473,7 +464,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; 
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -483,7 +474,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[11]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[11]:&lt;/div&gt;
 
 
 
@@ -506,7 +497,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# varianza de cada columna&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -516,7 +507,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[12]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[12]:&lt;/div&gt;
 
 
 
@@ -541,7 +532,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="c1"&gt;# el 2do array devuelve la frecuencia.&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -551,7 +542,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[13]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[13]:&lt;/div&gt;
 
 
 
@@ -576,7 +567,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;stats&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# aqui la moda es el 6 porque aparece 5 veces en el vector.&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -586,7 +577,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[14]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[14]:&lt;/div&gt;
 
 
 
@@ -610,7 +601,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;corrcoef&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# Crea matriz de correlación.&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -620,7 +611,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[15]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[15]:&lt;/div&gt;
 
 
 
@@ -648,7 +639,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;corrcoef&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -658,7 +649,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[16]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[16]:&lt;/div&gt;
 
 
 
@@ -683,7 +674,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cov&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# calcula matriz de covarianza&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -693,7 +684,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[17]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[17]:&lt;/div&gt;
 
 
 
@@ -721,7 +712,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cov&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;datos&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -731,7 +722,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[18]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[18]:&lt;/div&gt;
 
 
 
@@ -758,7 +749,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;dataframe&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -768,7 +759,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[19]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[19]:&lt;/div&gt;
 
 
 
@@ -840,7 +831,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;dataframe&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;describe&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -850,7 +841,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[20]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[20]:&lt;/div&gt;
 
 
 
@@ -943,7 +934,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 &lt;span class="n"&gt;dataframe&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -953,7 +944,7 @@ $$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$&lt;/li&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[21]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[21]:&lt;/div&gt;
 
 
 
@@ -981,7 +972,7 @@ dtype: float64&lt;/pre&gt;
 &lt;span class="n"&gt;dataframe&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;axis&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -991,7 +982,7 @@ dtype: float64&lt;/pre&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[22]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[22]:&lt;/div&gt;
 
 
 
@@ -1019,7 +1010,7 @@ dtype: float64&lt;/pre&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;dataframe&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cumsum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# acumulados&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1029,7 +1020,7 @@ dtype: float64&lt;/pre&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[23]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[23]:&lt;/div&gt;
 
 
 
@@ -1101,7 +1092,7 @@ dtype: float64&lt;/pre&gt;
 &lt;span class="n"&gt;dataframe&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1111,7 +1102,7 @@ dtype: float64&lt;/pre&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[24]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[24]:&lt;/div&gt;
 
 
 
@@ -1139,7 +1130,7 @@ dtype: float64&lt;/pre&gt;
 &lt;span class="n"&gt;dataframe&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;axis&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1149,7 +1140,7 @@ dtype: float64&lt;/pre&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[25]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[25]:&lt;/div&gt;
 
 
 
@@ -1170,8 +1161,7 @@ dtype: float64&lt;/pre&gt;
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Histogramas-y-Distribuciones"&gt;Histogramas y Distribuciones&lt;a class="anchor-link" href="#Histogramas-y-Distribuciones"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Muchas veces los indicadores de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica_descriptiva"&gt;estadística descriptiva&lt;/a&gt;&lt;/em&gt; no nos proporcionan una imagen clara de nuestros &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt;.  Por esta razón, siempre es útil complementarlos con gráficos de las distribuciones de los &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt;, que describan con qué frecuencia aparece cada valor. La representación más común de una distribución es un &lt;a href="https://es.wikipedia.org/wiki/Histograma"&gt;histograma&lt;/a&gt;, que es un gráfico que muestra la frecuencia o probabilidad de cada valor. El &lt;a href="https://es.wikipedia.org/wiki/Histograma"&gt;histograma&lt;/a&gt; muestra las frecuencias como un gráfico de barras que indica cuan frecuente un determinado valor ocurre en el &lt;a href="https://es.wikipedia.org/wiki/Conjunto_de_datos"&gt;conjunto de datos&lt;/a&gt;. El eje horizontal representa los valores del &lt;a href="https://es.wikipedia.org/wiki/Conjunto_de_datos"&gt;conjunto de datos&lt;/a&gt; y el eje vertical representa la frecuencia con que esos valores ocurren.&lt;/p&gt;
 &lt;p&gt;Las distribuciones se pueden clasificar en dos grandes grupos:&lt;/p&gt;
@@ -1202,8 +1192,7 @@ dtype: float64&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h3 id="Distribuci&amp;#243;n-normal"&gt;Distribuci&amp;#243;n normal&lt;a class="anchor-link" href="#Distribuci&amp;#243;n-normal"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;La &lt;a href="https://es.wikipedia.org/wiki/Distribuci%C3%B3n_normal"&gt;distribución normal&lt;/a&gt; es una de las principales distribuciones, ya que es la que con más frecuencia aparece aproximada en los fenómenos reales. Tiene una forma acampanada y es simétrica respecto de un determinado parámetro estadístico. Con la ayuda de &lt;a href="https://python.org/"&gt;Python&lt;/a&gt; la podemos graficar de la siguiente manera:&lt;/p&gt;
 
@@ -1219,7 +1208,7 @@ dtype: float64&lt;/pre&gt;
 &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="k"&gt;matplotlib&lt;/span&gt; inline 
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1237,7 +1226,7 @@ dtype: float64&lt;/pre&gt;
 &lt;span class="n"&gt;sns&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_context&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;rc&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;figure.figsize&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;)})&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1251,7 +1240,7 @@ dtype: float64&lt;/pre&gt;
 &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;normal&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;sigma&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1000&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;#creando muestra de datos&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1268,7 +1257,7 @@ dtype: float64&lt;/pre&gt;
          &lt;span class="n"&gt;linewidth&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;color&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;r&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1278,7 +1267,7 @@ dtype: float64&lt;/pre&gt;
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+    &lt;div class="prompt"&gt;&lt;/div&gt;
 
 
 
@@ -1518,8 +1507,7 @@ kTBT+YqIiISZyldERCTMVL4iIiJhpvIVEREJM5WviIhImP0/GpEA7DqTnyYAAAAASUVORK5CYII=
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h3 id="Distribuciones-simetricas-y-asimetricas"&gt;Distribuciones simetricas y asimetricas&lt;a class="anchor-link" href="#Distribuciones-simetricas-y-asimetricas"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Una distribución es simétrica cuando moda, mediana y media coinciden aproximadamente en sus valores. Si una distribución es simétrica, existe el mismo número de valores a la derecha que a la izquierda de la media, por tanto, el mismo número de desviaciones con signo positivo que con signo negativo.&lt;/p&gt;
 &lt;p&gt;Una distribución tiene &lt;a href="https://es.wikipedia.org/wiki/Asimetr%C3%ADa_estad%C3%ADstica"&gt;asimetria&lt;/a&gt; positiva (o a la derecha) si la "cola" a la derecha de la media es más larga que la de la izquierda, es decir, si hay valores más separados de la media a la derecha. De la misma forma una distribución tiene &lt;a href="https://es.wikipedia.org/wiki/Asimetr%C3%ADa_estad%C3%ADstica"&gt;asimetria&lt;/a&gt; negativa (o a la izquierda) si la "cola" a la izquierda de la media es más larga que la de la derecha, es decir, si hay valores más separados de la media a la izquierda.&lt;/p&gt;
@@ -1538,7 +1526,7 @@ kTBT+YqIiISZyldERCTMVL4iIiJhpvIVEREJM5WviIhImP0/GpEA7DqTnyYAAAAASUVORK5CYII=
 &lt;span class="n"&gt;gamma&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hist&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;70&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;histtype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;stepfilled&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;alpha&lt;/span&gt;&lt;span class="o"&gt;=.&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1548,7 +1536,7 @@ kTBT+YqIiISZyldERCTMVL4iIiJhpvIVEREJM5WviIhImP0/GpEA7DqTnyYAAAAASUVORK5CYII=
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+    &lt;div class="prompt"&gt;&lt;/div&gt;
 
 
 
@@ -1690,8 +1678,7 @@ KYUMaEmSUsiAliQphQxoSZJS6P8D3TPT4coRtecAAAAASUVORK5CYII=
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;En este ejemplo podemos ver que la &lt;a href="https://es.wikipedia.org/wiki/Distribuci%C3%B3n_gamma"&gt;distribución gamma&lt;/a&gt; que dibujamos tiene una &lt;a href="https://es.wikipedia.org/wiki/Asimetr%C3%ADa_estad%C3%ADstica"&gt;asimetria&lt;/a&gt; positiva.&lt;/p&gt;
 
@@ -1707,7 +1694,7 @@ KYUMaEmSUsiAliQphQxoSZJS6P8D3TPT4coRtecAAAAASUVORK5CYII=
 &lt;span class="n"&gt;stats&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;skew&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1717,7 +1704,7 @@ KYUMaEmSUsiAliQphQxoSZJS6P8D3TPT4coRtecAAAAASUVORK5CYII=
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[31]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[31]:&lt;/div&gt;
 
 
 
@@ -1733,8 +1720,7 @@ KYUMaEmSUsiAliQphQxoSZJS6P8D3TPT4coRtecAAAAASUVORK5CYII=
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Cuartiles-y-diagramas-de-cajas"&gt;Cuartiles y diagramas de cajas&lt;a class="anchor-link" href="#Cuartiles-y-diagramas-de-cajas"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Los &lt;strong&gt;&lt;a href="https://es.wikipedia.org/wiki/Cuartil"&gt;cuartiles&lt;/a&gt;&lt;/strong&gt; son los tres valores de la variable estadística que dividen a un &lt;a href="https://es.wikipedia.org/wiki/Conjunto_de_datos"&gt;conjunto de datos&lt;/a&gt; ordenados en cuatro partes iguales. Q1, Q2 y Q3 determinan los valores correspondientes al 25%, al 50% y al 75% de los datos. Q2 coincide con la &lt;a href="https://es.wikipedia.org/wiki/Mediana_(estad%C3%ADstica)"&gt;mediana&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Los &lt;a href="https://es.wikipedia.org/wiki/Diagrama_de_caja"&gt;diagramas de cajas&lt;/a&gt; son una presentación visual que describe varias características importantes al mismo tiempo, tales como la dispersión y simetría. Para su realización se representan los tres cuartiles y los valores mínimo y máximo de los datos, sobre un rectángulo, alineado horizontal o verticalmente. Estos gráficos nos proporcionan abundante información y son sumamente útiles para encontrar &lt;a href="https://es.wikipedia.org/wiki/Valor_at%C3%ADpico"&gt;valores atípicos&lt;/a&gt; y comparar dos &lt;a href="https://es.wikipedia.org/wiki/Conjunto_de_datos"&gt;conjunto de datos&lt;/a&gt;.&lt;/p&gt;
@@ -1772,7 +1758,7 @@ KYUMaEmSUsiAliQphQxoSZJS6P8D3TPT4coRtecAAAAASUVORK5CYII=
 &lt;span class="c1"&gt;# los puntos aislados son valores atípicos&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1782,7 +1768,7 @@ KYUMaEmSUsiAliQphQxoSZJS6P8D3TPT4coRtecAAAAASUVORK5CYII=
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+    &lt;div class="prompt"&gt;&lt;/div&gt;
 
 
 
@@ -1943,7 +1929,7 @@ hiRJSsagIUmSkjFoSJKkZP4//tEKDi6gfawAAAAASUVORK5CYII=
             &lt;span class="n"&gt;color&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;PaleGreen&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1953,7 +1939,7 @@ hiRJSsagIUmSkjFoSJKkZP4//tEKDi6gfawAAAAASUVORK5CYII=
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+    &lt;div class="prompt"&gt;&lt;/div&gt;
 
 
 
@@ -2079,13 +2065,11 @@ l/tphAAAAABJRU5ErkJggg==
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Regresiones"&gt;Regresiones&lt;a class="anchor-link" href="#Regresiones"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Las &lt;strong&gt;regresiones&lt;/strong&gt; es una de las herramientas principales de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica_inferencial"&gt;estadistica inferencial&lt;/a&gt;&lt;/em&gt;. El objetivo del &lt;a href="https://es.wikipedia.org/w/index.php?title=An%C3%A1lisis_de_la_regresi%C3%B3n&amp;amp;redirect=no"&gt;análisis de regresión&lt;/a&gt; es describir la relación entre un conjunto de variables, llamadas variables dependientes, y otro conjunto de variables, llamadas variables independientes o explicativas.  Más específicamente, el &lt;a href="https://es.wikipedia.org/w/index.php?title=An%C3%A1lisis_de_la_regresi%C3%B3n&amp;amp;redirect=no"&gt;análisis de regresión&lt;/a&gt; ayuda a entender cómo el valor típico de la variable dependiente cambia cuando cualquiera de las variables independientes es cambiada, mientras que se mantienen las otras variables independientes fijas. El producto final del &lt;a href="https://es.wikipedia.org/w/index.php?title=An%C3%A1lisis_de_la_regresi%C3%B3n&amp;amp;redirect=no"&gt;análisis de regresión&lt;/a&gt; es la estimación de una función de las variables independientes llamada la &lt;strong&gt;función de regresión&lt;/strong&gt;. La idea es que en base a esta función de regresión podamos hacer estimaciones sobre eventos futuros.&lt;/p&gt;
 &lt;p&gt;La &lt;a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal"&gt;regresión lineal&lt;/a&gt; es una de las técnicas más simples y mayormente utilizadas en los &lt;a href="https://es.wikipedia.org/w/index.php?title=An%C3%A1lisis_de_la_regresi%C3%B3n&amp;amp;redirect=no"&gt;análisis de regresiones&lt;/a&gt;. Hace suposiciones muy rígidas sobre la relación entre la &lt;a href="https://es.wikipedia.org/wiki/Variable_estad%C3%ADstica#Seg.C3.BAn_la_influencia"&gt;variable dependiente&lt;/a&gt; $y$ y &lt;a href="https://es.wikipedia.org/wiki/Variable_estad%C3%ADstica#Seg.C3.BAn_la_influencia"&gt;variable independiente&lt;/a&gt; $x$. Asume que la relación va a tomar la forma:&lt;/p&gt;
-&lt;p&gt;$$ y = \beta_0 + \beta_1 * x$$&lt;/p&gt;
-&lt;p&gt;Uno de los métodos más populares para realizar &lt;a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal"&gt;regresiones lineales&lt;/a&gt; es el de &lt;a href="https://es.wikipedia.org/wiki/M%C3%ADnimos_cuadrados_ordinarios"&gt;mínimos cuadrados ordinarios&lt;/a&gt; (OLS, por sus siglas en inglés), este método es el estimador más simple y común en la que los dos $\beta$s se eligen para minimizar el cuadrado de la distancia entre los valores estimados y los valores reales.&lt;/p&gt;
+$$ y = \beta_0 + \beta_1 * x$$&lt;p&gt;Uno de los métodos más populares para realizar &lt;a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal"&gt;regresiones lineales&lt;/a&gt; es el de &lt;a href="https://es.wikipedia.org/wiki/M%C3%ADnimos_cuadrados_ordinarios"&gt;mínimos cuadrados ordinarios&lt;/a&gt; (OLS, por sus siglas en inglés), este método es el estimador más simple y común en la que los dos $\beta$s se eligen para minimizar el cuadrado de la distancia entre los valores estimados y los valores reales.&lt;/p&gt;
 &lt;p&gt;Realizar &lt;a href="https://es.wikipedia.org/w/index.php?title=An%C3%A1lisis_de_la_regresi%C3%B3n&amp;amp;redirect=no"&gt;análisis de regresiones&lt;/a&gt; en &lt;a href="https://python.org/"&gt;Python&lt;/a&gt; es sumamente fácil gracias a &lt;a href="https://statsmodels.sourceforge.net/"&gt;statsmodels&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Veamos un pequeño ejemplo utilizando el dataset &lt;a href="https://stat.ethz.ch/R-manual/R-patched/library/datasets/html/longley.html"&gt;longley&lt;/a&gt;, el cual es ideal para realizar regresiones:&lt;/p&gt;
 
@@ -2106,7 +2090,7 @@ l/tphAAAAABJRU5ErkJggg==
 &lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;head&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# longley dataset&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -2116,7 +2100,7 @@ l/tphAAAAABJRU5ErkJggg==
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[34]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[34]:&lt;/div&gt;
 
 
 
@@ -2207,7 +2191,7 @@ l/tphAAAAABJRU5ErkJggg==
 &lt;span class="n"&gt;est&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;summary&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# Employed se estima en base a GNP.&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -2217,7 +2201,7 @@ l/tphAAAAABJRU5ErkJggg==
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt output_prompt"&gt;Out[35]:&lt;/div&gt;
+    &lt;div class="prompt output_prompt"&gt;Out[35]:&lt;/div&gt;
 
 
 
@@ -2286,8 +2270,7 @@ l/tphAAAAABJRU5ErkJggg==
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Como podemos ver, el resumen que nos brinda &lt;a href="https://statsmodels.sourceforge.net/"&gt;statsmodels&lt;/a&gt; sobre nuestro modelo de &lt;a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal"&gt;regresión&lt;/a&gt; contiene bastante información sobre como se ajuste el modelo a los datos. Pasemos a explicar algunos de estos valores:&lt;/p&gt;
 &lt;ul&gt;
@@ -2328,7 +2311,7 @@ l/tphAAAAABJRU5ErkJggg==
 &lt;span class="n"&gt;reg&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X_1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;GNP&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y_reg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;r&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;alpha&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# linea de regresion&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -2338,7 +2321,7 @@ l/tphAAAAABJRU5ErkJggg==
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+    &lt;div class="prompt"&gt;&lt;/div&gt;
 
 
 
@@ -2531,7 +2514,7 @@ gVLIi4iIBEohLyIiEiiFvIiISKAU8iIiIoFSyIuIiATq/wMth6pQIxiv9QAAAABJRU5ErkJggg==
 &lt;span class="n"&gt;inf&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;influence_plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;est&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -2541,7 +2524,7 @@ gVLIi4iIBEohLyIiEiiFvIiISKAU8iIiIoFSyIuIiATq/wMth6pQIxiv9QAAAABJRU5ErkJggg==
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+    &lt;div class="prompt"&gt;&lt;/div&gt;
 
 
 
@@ -2962,8 +2945,7 @@ pZRSyuM02CullFIep8FeKaWU8jgN9koppZTHabBXSimlPO7/AUwoxkpSJU6uAAAAAElFTkSuQmCC
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Este último gráfico nos muestra el apalancamiento y la influencia de cada caso.&lt;/p&gt;
 
@@ -2971,8 +2953,7 @@ pZRSyuM02CullFIep8FeKaWU8jgN9koppZTHabBXSimlPO7/AUwoxkpSJU6uAAAAAElFTkSuQmCC
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="La-estad&amp;#237;stica-bayesiana"&gt;La estad&amp;#237;stica bayesiana&lt;a class="anchor-link" href="#La-estad&amp;#237;stica-bayesiana"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;La &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica_bayesiana"&gt;estadística bayesiana&lt;/a&gt;&lt;/em&gt; es un subconjunto del campo de la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística&lt;/a&gt;&lt;/em&gt; en la que la evidencia sobre el verdadero estado de las cosas se expresa en términos de grados de creencia. Esta filosofía de tratar a las creencias como probabilidad es algo natural para los seres humanos. Nosotros la utilizamos constantemente a medida que interactuamos con el mundo y sólo vemos verdades parciales; necesitando reunir pruebas para formar nuestras creencias.&lt;/p&gt;
 &lt;p&gt;La diferencia fundamental entre la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica"&gt;estadística clásica&lt;/a&gt;&lt;/em&gt; (frecuentista) y la &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%C3%ADstica_bayesiana"&gt;bayesiana&lt;/a&gt;&lt;/em&gt; es el concepto de
@@ -3019,7 +3000,7 @@ obtenidas. En el caso &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%
 &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tight_layout&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -3029,7 +3010,7 @@ obtenidas. En el caso &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Estad%
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+    &lt;div class="prompt"&gt;&lt;/div&gt;
 
 
 
@@ -4169,8 +4150,7 @@ QmCC
 
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Como el gráfico de arriba muestra, cuando empezamos a observar nuevos &lt;em&gt;&lt;a href="https://es.wikipedia.org/wiki/Dato"&gt;datos&lt;/a&gt;&lt;/em&gt; nuestras probabilidades posteriores comienzan a cambiar y moverse. Eventualmente, a medida que observamos más y más datos (lanzamientos de monedas), nuestras probabilidades se acercan más y más hacia el verdadero valor de p = 0.5 (marcado por una línea discontinua).&lt;/p&gt;
 
@@ -4178,8 +4158,7 @@ QmCC
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Aquí termina este tutorial, espero que les haya sido util.&lt;/p&gt;
 &lt;p&gt;Saludos!&lt;/p&gt;
