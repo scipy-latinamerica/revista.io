@@ -92,8 +92,16 @@
                 <section id="header">
 
                   <!-- Logo -->
-                  <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
-
+                  <div class="middle">
+                      
+                  <a href="{{ SITEURL }}/">
+                      <img src="{{ SITEURL }}/{{ ABOUT_IMAGE_LOGO }}" alt="" 
+                           class="image-logo" />
+                  </a>
+                  <h1 class="h1-title"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1> 
+                  </div>
+                  
+                    
                   <!-- Nav -->
                     <nav id="nav">
                       <ul>
@@ -188,7 +196,7 @@
                       <h2>SciPy América Latina / SciPy Latin America</h2>
                     </header>
                     {% if ABOUT_LINK is defined %}
-                      <a href="{{ ABOUT_LINK }}" class="image image-full"><img src="{{ SITEURL }}/{{ ABOUT_IMAGE }}" alt="" /></a>
+                      <a href="{{ ABOUT_LINK }}" class="image"><img src="{{ SITEURL }}/{{ ABOUT_IMAGE }}" alt="" /></a>
                     {% else %}
                       <img src="{{ SITEURL }}/{{ ABOUT_IMAGE }}" class="image image-full" alt="" />
                     {% endif %}
