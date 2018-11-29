@@ -44,6 +44,11 @@
 			text-decoration: none;
 		}
 
+        h1.h1-title
+        {
+            display:inline;
+        }
+
 	a
 	{
 		color: #d52349;
@@ -268,6 +273,13 @@
 			{
 				display: block;
 				width: 100%;
+			}
+
+            img.image-logo
+			{
+                display: inline-block;
+				width: 100px;
+                height: 100px;
 			}
 
 		.image-centered
@@ -775,4 +787,10 @@ article .post-infos .tags li {
 article em {
   font-style: italic;
   font-weight: bold;
+}
+
+/* custom */
+
+.middle {
+    vertical-align: middle;
 }

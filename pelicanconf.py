@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'SciPyLA'
-SITENAME = 'Revista SciPyLA'
+SITENAME = 'Revista Python Científico América Latina'
 SITEURL = ''
 
 PATH = 'content'
@@ -58,6 +58,7 @@ DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'searc
 # Theme variables
 ABOUT_TEXT = "Revista de Python orientado a las ciencias mantenida por la comunidad de SciPyLA"
 ABOUT_IMAGE = 'img/scipyla.nav.svg'
+ABOUT_IMAGE_LOGO = 'img/scipyla-logo.svg'
 FACEBOOK_USER = 'scipyla'
 TWITTER_USER = 'ScipyLA'
 COPYRIGHT = 'SciPyLA'
