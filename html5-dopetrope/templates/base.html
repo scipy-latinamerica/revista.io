@@ -245,27 +245,27 @@
                   <ul class="social">
                     {% if FACEBOOK_USER %}
                       <li><a href="https://www.facebook.com/{{ FACEBOOK_USER }}"><img 
-                        src="/img/facebook.png" /></a></li>
+                        src="{{ SITEURL }}/img/facebook.png" /></a></li>
                     {% endif %}
                     {% if TWITTER_USER is defined %}
                       <li><a href="https://twitter.com/{{ TWITTER_USER }}"><img 
-                        src="/img/twitter.png" /></a></li>
+                        src="{{ SITEURL }}/img/twitter.png" /></a></li>
                     {% endif %}
                     {% if LINKEDIN_USER %}
                     <li><a href="https://www.linkedin.com/groups/{{ LINKEDIN_USER }}"><img 
-                        src="/img/linkedin.png" /></a></li>
+                        src="{{ SITEURL }}/img/linkedin.png" /></a></li>
                     {% endif %}
                     {% if YOUTUBE_USER %}
                     <li><a href="https://www.youtube.com/channel/{{ YOUTUBE_USER }}"><img 
-                        src="/img/youtube.png" /></a></li>
+                        src="{{ SITEURL }}/img/youtube.png" /></a></li>
                     {% endif %}
                     {% if GOOGLEPLUS_USER %}
                       <li><a href="https://plus.google.com/{{ GOOGLEPLUS_USER }}"><img 
-                        src="/img/google_plus.png" /></a></li>
+                        src="{{ SITEURL }}/img/google_plus.png" /></a></li>
                     {% endif %}
                     {% if TELEGRAM_USER is defined %}
                       <li><a href="https://t.me/{{ TELEGRAM_USER }}"><img 
-                        src="/img/telegram.png" /></a></li>
+                        src="{{ SITEURL }}/img/telegram.png" /></a></li>
                     {% endif %}
                   </ul>
                   {% if ADDRESS is defined or MAIL is defined or PHONE is defined %}
