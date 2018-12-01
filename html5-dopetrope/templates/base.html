@@ -244,16 +244,28 @@
                   </header>
                   <ul class="social">
                     {% if FACEBOOK_USER %}
-                      <li class="facebook"><a href="https://www.facebook.com/{{ FACEBOOK_USER }}" class="icon48 icon48-1">Facebook</a></li>
+                      <li><a href="https://www.facebook.com/{{ FACEBOOK_USER }}"><img 
+                        src="/img/facebook.png" /></a></li>
                     {% endif %}
                     {% if TWITTER_USER is defined %}
-                      <li class="twitter"><a href="https://twitter.com/{{ TWITTER_USER }}" class="icon48 icon48-2">Twitter</a></li>
+                      <li><a href="https://twitter.com/{{ TWITTER_USER }}"><img 
+                        src="/img/twitter.png" /></a></li>
                     {% endif %}
                     {% if LINKEDIN_USER %}
-                    <li class="linkedin"><a href="https://www.linkedin.com/pub/{{ LINKEDIN_USER }}" class="icon48 icon48-4">LinkedIn</a></li>
+                    <li><a href="https://www.linkedin.com/groups/{{ LINKEDIN_USER }}"><img 
+                        src="/img/linkedin.png" /></a></li>
+                    {% endif %}
+                    {% if YOUTUBE_USER %}
+                    <li><a href="https://www.youtube.com/channel/{{ YOUTUBE_USER }}"><img 
+                        src="/img/youtube.png" /></a></li>
                     {% endif %}
                     {% if GOOGLEPLUS_USER %}
-                      <li class="googleplus"><a href="https://plus.google.com/{{ GOOGLEPLUS_USER }}" class="icon48 icon48-6">Google+</a></li>
+                      <li><a href="https://plus.google.com/{{ GOOGLEPLUS_USER }}"><img 
+                        src="/img/google_plus.png" /></a></li>
+                    {% endif %}
+                    {% if TELEGRAM_USER is defined %}
+                      <li><a href="https://t.me/{{ TELEGRAM_USER }}"><img 
+                        src="/img/telegram.png" /></a></li>
                     {% endif %}
                   </ul>
                   {% if ADDRESS is defined or MAIL is defined or PHONE is defined %}

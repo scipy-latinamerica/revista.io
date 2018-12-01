@@ -478,7 +478,7 @@
 			{
 				display: block;
 				border-radius: 5px;
-				background: #888;
+				/*background: #888;*/
 				-moz-transition: background-color .25s ease-in-out;
 				-webkit-transition: background-color .25s ease-in-out;
 				-o-transition: background-color .25s ease-in-out;
