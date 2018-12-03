@@ -172,6 +172,10 @@
             <div class="row">
                 
               <div class="4u">
+                {% include 'twitter-sidebar.html' %}
+              </div>  
+                
+              <div class="4u">
                 {% if ABOUT_TEXT is defined or ABOUT_IMAGE is defined or ABOUT_LINK is defined %}
                   <section>
                     <header>
@@ -248,7 +252,7 @@
                   {% endif %}
                 </section>
               </div>
-
+                
               {% if categories is defined %}
               <div class="4u">
                 <section>
@@ -264,12 +268,9 @@
               </div>
               {% endif %}  
                 
-              <div class="4u">
-                {% include 'twitter-sidebar.html' %}
-              </div>
             </div>
               
-            {% if COPYRIGHT is defined and SHOW_COPYRIGHT != False %}
+            {% if COPYRIGHT is defined and SHOW_COPYRIGHT == False %}
             <div class="row">
               <div class="12u">
                 <!-- Copyright -->
