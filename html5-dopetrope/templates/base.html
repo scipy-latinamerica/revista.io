@@ -81,6 +81,7 @@
 
     {% endblock head %}
   </head>
+    
   <body class="no-sidebar">
     <!-- Header Wrapper -->
       <div id="header-wrapper">
@@ -161,8 +162,7 @@
           {% endblock %}
           {% block content %}
           {% endblock %}
-
-        </div>
+        </div>        
       </div>
 
     <!-- Footer Wrapper -->
@@ -170,24 +170,9 @@
         <!-- Footer -->
           <section id="footer" class="container">
             <div class="row">
-              <div class="8u">
-                <section>
-                  <header>
-                    <h2>Últimos artículos</h2>
-                  </header>
-                  <ul class="dates">
-                  {% for article in articles[0:4] %}
-                    <li>
-                      <span class="date">{{ article.locale_date }}</span>
-                      <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
-                      <p>{{ article.summary }}</p>
-                    </li>
-                  {% endfor %}
-                  </ul>
-                </section>
-              </div>
-              {% if ABOUT_TEXT is defined or ABOUT_IMAGE is defined or ABOUT_LINK is defined %}
-                <div class="4u">
+                
+              <div class="4u">
+                {% if ABOUT_TEXT is defined or ABOUT_IMAGE is defined or ABOUT_LINK is defined %}
                   <section>
                     <header>
                       <h2>SciPy América Latina / SciPy Latin America</h2>
@@ -206,38 +191,7 @@
                       {% endif %}
                     </footer>
                   </section>
-                </div>
-              {% endif %}
-            </div>
-            <div class="row">
-              <div class="4u">
-                <section>
-                  <header>
-                    <h2>Blogroll</h2>
-                  </header>
-                  <ul class="divided">
-                    {% for name, link in LINKS %}
-                      <li><a href="{{ link }}">{{ name }}</a></li>
-                    {% endfor %}
-                  </ul>
-                </section>
-              </div>
-              {% if categories is defined %}
-              <div class="4u">
-                <section>
-                  <header>
-                    <h2>Categorias</h2>
-                  </header>
-                  <ul class="divided">
-                    {% for cat, null in categories[0:4] %}
-                      <li><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                    {% endfor %}
-                  </ul>
-                </section>
-              </div>
-              {% endif %}
-              <div class="4u">
-
+                {% endif %}
                 <section>
                   <header>
                     <h2>Contactos</h2>
@@ -294,7 +248,27 @@
                   {% endif %}
                 </section>
               </div>
+
+              {% if categories is defined %}
+              <div class="4u">
+                <section>
+                  <header>
+                    <h2>Categorias</h2>
+                  </header>
+                  <ul class="divided">
+                    {% for cat, null in categories[0:4] %}
+                      <li><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </section>
+              </div>
+              {% endif %}  
+                
+              <div class="4u">
+                {% include 'twitter-sidebar.html' %}
+              </div>
             </div>
+              
             {% if COPYRIGHT is defined and SHOW_COPYRIGHT != False %}
             <div class="row">
               <div class="12u">
@@ -311,7 +285,6 @@
             {% endif %}
           </section>
       </div>
-    
     {% include 'analytics.html' %}
   </body>
 </html>
