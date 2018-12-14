@@ -4,5 +4,6 @@ Category: Calculo
 Tags: python, matematica, calculo, derivada, integral, limite
 Author: Raul E. Lopez Briega
 Description: Cálculo con python. Qué es el cálculo, historia, funciones, límites, derivadas, integrales, teorema fundamental del cálculo, aplicaciones, ejemplos en python
+NotebookName: pyCalculus.ipynb
 
 {% notebook pyCalculus.ipynb cells[2:] %}

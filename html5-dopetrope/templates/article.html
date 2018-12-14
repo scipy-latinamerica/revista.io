@@ -33,6 +33,12 @@
                   <div class="pennant pennant-alt date">{{ article.locale_date }}</div>
                   <h2>{{ article.title }}</h2>
                   {{ article.content }}
+                  {% if article.notebookname %}
+                  <div class="admonition note alert alert-info">
+                    Este articulo fue escrito utilizando <a class="reference external" href="https://github.com/scipy-latinamerica/revista.io/tree/master/content/notebooks/{{article.notebookname}}">Jupyter notebook</a>.
+                    Presionar aquí para la versión interactiva:
+                    <span class="raw-html"><a href="https://mybinder.org/v2/gh/scipy-latinamerica/revista.io/master?filepath=content/notebooks/{{article.notebookname}}"><img alt="Binder badge" src="https://mybinder.org/badge.svg" style="vertical-align:text-bottom"></a></span></div>
+                  {% endif %}
                 </article>
                 {% include 'disqus_script.html' %}
             </div>
