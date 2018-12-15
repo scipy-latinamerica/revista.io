@@ -38,9 +38,9 @@ STATIC_PATHS = ['img', 'pages' ]
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
-MENUITEMS = [('Home', '/index.html'),             
+MENUITEMS = [('Home', 'https://scipy-latinamerica.github.io/revista.io/index.html'),             
              ('Conferencia', 'http://conf.scipyla.org/'),
-             ('Contacto', '/pages/contacto.html')]
+             ('Contacto', 'https://scipy-latinamerica.github.io/revista.io/pages/contacto.html')]
 
 DEFAULT_PAGINATION = 10
 
