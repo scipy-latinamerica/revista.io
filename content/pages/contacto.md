@@ -8,7 +8,7 @@ Hola, Muchas gracias por visitar la Revista!.
 Si quieren saber más sobre la revista o sobre la comunidad [SciPy Latin America](http://conf.scipyla.org/) pueden ponerse en contacto con nostros a traves de las redes sociales o completando el siguiente formaulario. 
 
 
-<form action="//formspree.io/relopezbriega@gmail.com" method="POST">
+<form action="//formspree.io/revista@scipyla.org" method="POST">
     <fieldset>
         <strong><label for="name">Su nombre</label></strong><br>
         <input type="text" name="name" placeholder="Nombre" required>
