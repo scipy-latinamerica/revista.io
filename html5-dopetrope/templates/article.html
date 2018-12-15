@@ -14,7 +14,7 @@
                   <div class="post-infos">
                     <ul class="tags">
                       {% if article.category %}
-                      <li><a class="button" href="{{ article.category.url }}">{{ article.category|capitalize }}</a></li>
+                      <li><a class="button" href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category|capitalize }}</a></li>
                       <!-- Add Translation Function -->
                       {% if article.translations %}
                           {% for translation in article.translations %}
@@ -24,7 +24,7 @@
                       <!-- End Translation Function -->
                       {% endif %}
                       {% for tag in article.tags %}
-                        <li><a class="button button-alt" href="{{ tag.url }}">{{ tag|capitalize }}</a></li>
+                        <li><a class="button button-alt" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|capitalize }}</a></li>
 
                       {% endfor %}
                     </ul>
@@ -32,6 +32,12 @@
 
                   <div class="pennant pennant-alt date">{{ article.locale_date }}</div>
                   <h2>{{ article.title }}</h2>
+                  {% if article.notebookname %}
+                  <div class="admonition note alert alert-info">
+                    Este articulo fue escrito utilizando <a class="reference external" href="https://github.com/scipy-latinamerica/revista.io/tree/master/content/notebooks/{{article.notebookname}}">Jupyter notebook</a>.
+                    Presionar aquí para la versión interactiva:
+                    <span class="raw-html"><a href="https://mybinder.org/v2/gh/scipy-latinamerica/revista.io/master?filepath=content/notebooks/{{article.notebookname}}"><img alt="Binder badge" src="https://mybinder.org/badge.svg" style="vertical-align:text-bottom"></a></span></div>
+                  {% endif %}
                   {{ article.content }}
                   {% if article.notebookname %}
                   <div class="admonition note alert alert-info">

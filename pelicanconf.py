@@ -35,6 +35,13 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 STATIC_PATHS = ['img', 'pages' ]
 
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+
+MENUITEMS = [('Home', '/index.html'),             
+             ('Conferencia', 'http://conf.scipyla.org/'),
+             ('Contacto', '/pages/contacto.html')]
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing

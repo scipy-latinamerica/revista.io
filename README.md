@@ -27,6 +27,7 @@ Category: categoria en la que se incluye el artículo
 Tags: tags relevantes
 Author: nombre del autor
 Description: una breve descripción del artículo
+NotebookName: nombreDelNotebook.ipynb
 
 {% notebook nombreDelNotebook.ipynb cells[2:] %}
 ```

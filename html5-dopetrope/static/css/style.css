@@ -19,11 +19,13 @@
 
 	body
 	{
-		font-family: 'Source Sans Pro';
+		/* font-family: 'Source Sans Pro'; */
+		font-family: 'Georgia';
 		font-weight: 300;
 		background: #252122;
 		background-image: url('images/bg02.png');
-		color: #5d5d5d;
+		/* color: #5d5d5d; */
+		color: #292728;
 	}
 
 	strong, b
