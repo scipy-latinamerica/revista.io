@@ -4169,7 +4169,7 @@ QmCC
 &lt;/div&gt;
  
 
-&lt;/p&gt;</content><category term="python"></category><category term="estadistica"></category><category term="programacion"></category><category term="analisis de datos"></category><category term="probabilidad"></category><category term="distribuciones"></category></entry><entry><title>Introducción al Cálculo con Python</title><link href="https://scipy-latinamerica.github.io/revista.io/blog/2018/10/20/introduccion-al-calculo-con-python/" rel="alternate"></link><published>2018-10-20T00:00:00-03:00</published><updated>2018-10-20T00:00:00-03:00</updated><author><name>Raul E. Lopez Briega</name></author><id>tag:scipy-latinamerica.github.io,2018-10-20:/revista.io/blog/2018/10/20/introduccion-al-calculo-con-python/</id><summary type="html">&lt;p&gt;
+&lt;/p&gt;</content></entry><entry><title>Introducción al Cálculo con Python</title><link href="https://scipy-latinamerica.github.io/revista.io/blog/2018/10/20/introduccion-al-calculo-con-python/" rel="alternate"></link><published>2018-10-20T00:00:00-03:00</published><updated>2018-10-20T00:00:00-03:00</updated><author><name>Raul E. Lopez Briega</name></author><id>tag:scipy-latinamerica.github.io,2018-10-20:/revista.io/blog/2018/10/20/introduccion-al-calculo-con-python/</id><summary type="html">&lt;p&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -5870,4 +5870,4 @@ $$x^{3} - 6 x$$
 &lt;/div&gt;
  
 
-&lt;/p&gt;</content><category term="python"></category><category term="matematica"></category><category term="calculo"></category><category term="derivada"></category><category term="integral"></category><category term="limite"></category></entry></feed>
+&lt;/p&gt;</content></entry></feed>
